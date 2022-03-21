@@ -1,0 +1,12 @@
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\BusinessDirectory.Helpers\bin\Debug\net6.0\BusinessDirectory.Helpers.deps.json
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\BusinessDirectory.Helpers\bin\Debug\net6.0\BusinessDirectory.Helpers.dll
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\BusinessDirectory.Helpers\bin\Debug\net6.0\ref\BusinessDirectory.Helpers.dll
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\BusinessDirectory.Helpers\bin\Debug\net6.0\BusinessDirectory.Helpers.pdb
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\BusinessDirectory.Helpers\obj\Debug\net6.0\BusinessDirectory.Helpers.csproj.AssemblyReference.cache
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\BusinessDirectory.Helpers\obj\Debug\net6.0\BusinessDirectory.Helpers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\BusinessDirectory.Helpers\obj\Debug\net6.0\BusinessDirectory.Helpers.AssemblyInfoInputs.cache
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\BusinessDirectory.Helpers\obj\Debug\net6.0\BusinessDirectory.Helpers.AssemblyInfo.cs
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\BusinessDirectory.Helpers\obj\Debug\net6.0\BusinessDirectory.Helpers.csproj.CoreCompileInputs.cache
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\BusinessDirectory.Helpers\obj\Debug\net6.0\BusinessDirectory.Helpers.dll
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\BusinessDirectory.Helpers\obj\Debug\net6.0\ref\BusinessDirectory.Helpers.dll
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\BusinessDirectory.Helpers\obj\Debug\net6.0\BusinessDirectory.Helpers.pdb

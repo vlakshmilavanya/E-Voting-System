@@ -1,0 +1,94 @@
+﻿@page "/Roles/Add/{Id:int}"
+@using BusinessDirectory.DB.Models;
+@using BusinessDirectory.Client.Services;
+@using BusinessDirectory.ViewModels;
+@using BusinessDirectory.UIControls.LoadingIcon
+@inject IRoles rolesService
+@inject NavigationManager NavigationManager
+@inject AuthenticationStateProvider AuthStateProvider
+
+<PageTitle>Roles | Add</PageTitle>
+
+@if (!isRole)
+{
+    <Loading></Loading>
+}
+else
+{
+<EditForm class="pt-8" Model="@model" OnValidSubmit="OnValidSubmit">
+<DataAnnotationsValidator/>
+        <MudCard>
+            <MudCardContent>
+                <MudGrid>
+                    <MudItem sm="24" md="12">
+                        <MudTextField Label="UserId" @bind-Value="model.UserID"/>
+                    </MudItem>
+                    <MudItem sm="8" md="4">
+                        Role :
+                    </MudItem>
+                    <MudItem sm="16" md="8">
+                        <MudCheckBox @bind-Checked="@Admin" Label="Admin"></MudCheckBox>
+                        <MudCheckBox @bind-Checked="@Candidate" Label="Candidate"></MudCheckBox>
+                        <MudCheckBox @bind-Checked="@Voter" Label="Voter"></MudCheckBox>
+                    </MudItem>
+                    <MudItem sm="8" md="4">
+                        Active :
+                    </MudItem>
+                    <MudItem sm="16" md="8">
+                        <MudCheckBox @bind-Checked="@Active" Label="Active"></MudCheckBox>
+                    </MudItem>
+                    <MudItem sm="12" md="8">
+                        <MudTextField Label="Created By" @bind-Value="role.User.FirstName"/>
+                    </MudItem>
+                </MudGrid>
+            </MudCardContent>
+            <MudCardActions>
+                <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Primary" Class="ml-auto">Submit</MudButton>
+            </MudCardActions>
+        </MudCard>
+</EditForm>
+}
+@code {
+    public bool Candidate { get; set; }
+    public bool Voter { get; set; }
+    public bool Admin { get; set; }
+    public bool Active { get; set; }
+    [Parameter]
+    public int Id { get; set; }
+    RolesModel model = new RolesModel();
+    Roles role = new Roles();
+    bool isRole = false;
+    //public int UserId;
+
+    protected override async Task OnInitializedAsync()
+    {
+        //AuthenticationState ac = await AuthStateProvider.GetAuthenticationStateAsync();
+        //UserId = Int32.Parse(ac.User.Claims.First(i => i.Type == System.Security.Claims.ClaimTypes.NameIdentifier).Value);
+        role = await rolesService.GetRoleById(Id);
+        isRole = true;
+        model.CreatedBy = role.User.UserId;
+        model.IsActive = Active;
+
+    }
+    private async Task OnValidSubmit(EditContext context)
+    {
+        if(Admin == true)
+        {
+            model.RoleTypeID = 3;
+            await rolesService.AddRole(model);
+        }
+        if(Candidate == true)
+        {
+            model.RoleTypeID = 2;
+            await rolesService.AddRole(model);
+        }
+        if(Voter == true)
+        {
+            model.RoleTypeID = 1;
+            await rolesService.AddRole(model);
+        }
+        
+
+        NavigationManager.NavigateTo("/UserRoles");
+    }
+}

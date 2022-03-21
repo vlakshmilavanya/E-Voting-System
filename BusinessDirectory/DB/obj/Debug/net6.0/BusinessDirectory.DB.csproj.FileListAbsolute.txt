@@ -1,0 +1,24 @@
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\DB\bin\Debug\net6.0\BusinessDirectory.DB.deps.json
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\DB\bin\Debug\net6.0\BusinessDirectory.DB.dll
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\DB\bin\Debug\net6.0\ref\BusinessDirectory.DB.dll
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\DB\bin\Debug\net6.0\BusinessDirectory.DB.pdb
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\DB\obj\Debug\net6.0\BusinessDirectory.DB.csproj.AssemblyReference.cache
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\DB\obj\Debug\net6.0\BusinessDirectory.DB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\DB\obj\Debug\net6.0\BusinessDirectory.DB.AssemblyInfoInputs.cache
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\DB\obj\Debug\net6.0\BusinessDirectory.DB.AssemblyInfo.cs
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\DB\obj\Debug\net6.0\BusinessDirectory.DB.csproj.CoreCompileInputs.cache
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\DB\obj\Debug\net6.0\BusinessDirectory.DB.dll
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\DB\obj\Debug\net6.0\ref\BusinessDirectory.DB.dll
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\DB\obj\Debug\net6.0\BusinessDirectory.DB.pdb
+C:\Users\hp\OneDrive\Desktop\Major Project\BusinessDirectory\DB\bin\Debug\net6.0\BusinessDirectory.DB.deps.json
+C:\Users\hp\OneDrive\Desktop\Major Project\BusinessDirectory\DB\bin\Debug\net6.0\BusinessDirectory.DB.dll
+C:\Users\hp\OneDrive\Desktop\Major Project\BusinessDirectory\DB\bin\Debug\net6.0\ref\BusinessDirectory.DB.dll
+C:\Users\hp\OneDrive\Desktop\Major Project\BusinessDirectory\DB\bin\Debug\net6.0\BusinessDirectory.DB.pdb
+C:\Users\hp\OneDrive\Desktop\Major Project\BusinessDirectory\DB\obj\Debug\net6.0\BusinessDirectory.DB.csproj.AssemblyReference.cache
+C:\Users\hp\OneDrive\Desktop\Major Project\BusinessDirectory\DB\obj\Debug\net6.0\BusinessDirectory.DB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\OneDrive\Desktop\Major Project\BusinessDirectory\DB\obj\Debug\net6.0\BusinessDirectory.DB.AssemblyInfoInputs.cache
+C:\Users\hp\OneDrive\Desktop\Major Project\BusinessDirectory\DB\obj\Debug\net6.0\BusinessDirectory.DB.AssemblyInfo.cs
+C:\Users\hp\OneDrive\Desktop\Major Project\BusinessDirectory\DB\obj\Debug\net6.0\BusinessDirectory.DB.csproj.CoreCompileInputs.cache
+C:\Users\hp\OneDrive\Desktop\Major Project\BusinessDirectory\DB\obj\Debug\net6.0\BusinessDirectory.DB.dll
+C:\Users\hp\OneDrive\Desktop\Major Project\BusinessDirectory\DB\obj\Debug\net6.0\ref\BusinessDirectory.DB.dll
+C:\Users\hp\OneDrive\Desktop\Major Project\BusinessDirectory\DB\obj\Debug\net6.0\BusinessDirectory.DB.pdb

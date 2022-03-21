@@ -1,0 +1,405 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Client\\BusinessDirectory.Client.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Client\\BusinessDirectory.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Client\\BusinessDirectory.Client.csproj",
+        "projectName": "BusinessDirectory.Client",
+        "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Client\\BusinessDirectory.Client.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Data\\BusinessDirectory.Data.csproj": {
+                "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Data\\BusinessDirectory.Data.csproj"
+              },
+              "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\DB\\BusinessDirectory.DB.csproj": {
+                "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\DB\\BusinessDirectory.DB.csproj"
+              },
+              "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Shared\\BusinessDirectory.ViewModels.csproj": {
+                "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Shared\\BusinessDirectory.ViewModels.csproj"
+              },
+              "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\UIControls\\BusinessDirectory.UIControls.csproj": {
+                "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\UIControls\\BusinessDirectory.UIControls.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Blazored.LocalStorage": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "BrowserInterop": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            },
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.AspNetCore.Components.Authorization": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.AspNetCore.WebUtilities": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "MudBlazor": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[6.0.1, 6.0.1]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Data\\BusinessDirectory.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Data\\BusinessDirectory.Data.csproj",
+        "projectName": "BusinessDirectory.Data",
+        "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Data\\BusinessDirectory.Data.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\DB\\BusinessDirectory.DB.csproj": {
+                "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\DB\\BusinessDirectory.DB.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "BrowserInterop": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            },
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\DB\\BusinessDirectory.DB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\DB\\BusinessDirectory.DB.csproj",
+        "projectName": "BusinessDirectory.DB",
+        "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\DB\\BusinessDirectory.DB.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\DB\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "BrowserInterop": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Shared\\BusinessDirectory.ViewModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Shared\\BusinessDirectory.ViewModels.csproj",
+        "projectName": "BusinessDirectory.ViewModels",
+        "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Shared\\BusinessDirectory.ViewModels.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "BrowserInterop": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\UIControls\\BusinessDirectory.UIControls.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\UIControls\\BusinessDirectory.UIControls.csproj",
+        "projectName": "BusinessDirectory.UIControls",
+        "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\UIControls\\BusinessDirectory.UIControls.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\UIControls\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "BrowserInterop": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            },
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

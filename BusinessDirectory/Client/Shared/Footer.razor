@@ -1,0 +1,83 @@
+﻿@using BusinessDirectory.DB.Models
+@if(toDisplay)
+{
+    <MudPaper Class="footer"  Width="100%" Style="@($" background:{Colors.Grey.Lighten3}; ")">
+    <MudContainer Fixed="true" >
+        <br/>
+        <MudText Class="mb-2" Typo="Typo.h6" Variant="Variant.Text" Color="Color.Dark">Business Directory</MudText>
+        @*<MudText Class="mb-2" >Welcome to Business Directory, your 'one stop shop' where you are assisted with day-to-day and exclusive planning and purchasing activities. We take pride in our iconic customer support number, @customerno and the fact that we own a strong hold on local business information pan India.</MudText>*@
+        
+        <MudGrid>
+            <MudItem md=3>
+                <MudText Align="Align.Center" Class="mb-2" Variant="Variant.Text" Color="Color.Dark">Keep in Touch</MudText>
+                <MudContainer Class="d-flex justify-space-between flex-grow-1 gap-3">
+                @*<MudLink Href="@(twitter)"><MudIcon Color="Color.Tertiary" Icon="@Icons.Custom.Brands.Twitter" Size="Size.Large"  Title="Twitter" /></MudLink>
+                <MudLink Href="@(youtube)"><MudIcon Color="Color.Tertiary" Icon="@Icons.Custom.Brands.YouTube" Size="Size.Large" Title="YouTube" /></MudLink>
+                <MudLink Href="@(instagram)"><MudIcon Color="Color.Tertiary" Icon="@Icons.Custom.Brands.Instagram" Size="Size.Large" Title="Instagram" /></MudLink>
+                <MudLink Href="@(LinkedIn)"><MudIcon Color="Color.Tertiary" Icon="@Icons.Custom.Brands.LinkedIn" Size="Size.Large" Title="LinkedIn" /><br></MudLink>*@
+                </MudContainer>
+            </MudItem>
+            <MudItem md=2/>
+            <MudItem md=7>
+                <MudContainer Class="d-flex justify-space-between flex-grow-1 gap-3">
+                 <MudLink Href="/AboutUs" Variant="Variant.Text"  Color="Color.Tertiary" Style="text-transform:none" Class = "pr-16 ">About Us</MudLink>
+                 <MudLink Href="/CustomerCare" Variant="Variant.Text" Color="Color.Tertiary" Style="text-transform:none" Class = "pr-16">Customer Care</MudLink>
+                 @*<MudButton Link="/" Variant="Variant.Text" Color="Color.Dark" Style="text-transform:none" Class = "pr-16">Free Listing</MudButton>
+                 <MudButton Link="/" Variant="Variant.Text" Color="Color.Dark" Style="text-transform:none" Class = "pr-16">Advertise</MudButton>*@
+                 <MudLink Href="/ShareViews" Variant="Variant.Text" Color="Color.Tertiary" Style="text-transform:none" Class = "pr-16">Share Views</MudLink>
+                 <MudLink Href="/ReportABug" Variant="Variant.Text" Color="Color.Tertiary" Style="text-transform:none" Class = "pr-16">Report a bug</MudLink>
+                </MudContainer>
+                
+            </MudItem>
+        </MudGrid>
+         <MudDivider Color="Color.Tertiary" Class="mt-3 mb-3"/>
+         @*<MudText Color="Color.Dark">Business Directory | Copyrights @copyright. All Rights Reserved.</MudText>*@
+       
+    </MudContainer>
+</MudPaper>
+}
+@code {
+    public bool toDisplay = false;
+    //List<AppConfig> configs = new List<AppConfig>();
+    //public string copyright { get; set; }
+    //public string instagram { get; set; }
+    //public string LinkedIn { get; set; }
+    //public string youtube { get; set; }
+    //public string twitter { get; set; }
+    //public string customerno { get; set; }
+    //protected override async Task OnInitializedAsync()
+    //{
+    //    configs = await appService.GetAllConfigs();
+    //    var response = configs.FirstOrDefault(x => x.configName.ToLower() == "copyright");
+    //    copyright = response.configValue;
+    //    response = configs.FirstOrDefault(x => x.configName.ToLower() == "instagram");
+    //    instagram = response.configValue;
+    //    response = configs.FirstOrDefault(x => x.configName.ToLower() == "linkedin");
+    //    LinkedIn = response.configValue;
+    //    response = configs.FirstOrDefault(x => x.configName.ToLower() == "youtube");
+    //    youtube = response.configValue;
+    //    response = configs.FirstOrDefault(x => x.configName.ToLower() == "twitter");
+    //    twitter = response.configValue;
+    //    response = configs.FirstOrDefault(x => x.configName.ToLower() == "supportno");
+    //    customerno = response.configValue;
+    //    toDisplay = true;
+    //    //await InvokeAsync(() =>
+    //    //{
+    //    //    StateHasChanged();
+    //    //});
+    //}
+    //protected override async Task OnParametersSetAsync()
+    //{
+    //    configs = await appService.GetAllConfigs();
+    //    var response = configs.FirstOrDefault(x => x.configName.ToLower() == "copyright");
+    //    copyright = response.configValue;
+    //    response = configs.FirstOrDefault(x => x.configName.ToLower() == "instagram");
+    //    instagram = response.configValue;
+    //    toDisplay = true;
+    //    await InvokeAsync(() =>
+    //    {
+    //        StateHasChanged();
+    //    });
+    //}
+
+}

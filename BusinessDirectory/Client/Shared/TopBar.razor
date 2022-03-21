@@ -1,0 +1,48 @@
+﻿@using BusinessDirectory.Client.Services
+@using BusinessDirectory.ViewModels;
+@inject IAddressService AddressService
+@inject NavigationManager NavigationManager
+@inject ILocalStorageService LocalStorage
+@inject AuthenticationStateProvider AuthStateProvider
+
+<MudAppBar Elevation="2" Color="@Color.Primary">
+	<MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="async () => await OnSidebarToggled.InvokeAsync()" />
+	<MudSpacer/>
+	<AuthorizeView>
+			<Authorized>
+				<span>Hi, @context.User.Identity.Name </span>
+			</Authorized>
+	</AuthorizeView>
+	
+	<AuthorizeView>
+		<Authorized>
+			<MudMenu Color="Color.Inherit" Icon="@Icons.Filled.SupervisedUserCircle">
+				<MudMenuItem Class="p-0"><MudNavLink Href="/myprofile">My Profile</MudNavLink></MudMenuItem>
+				<MudMenuItem Class="p-0"><MudNavLink @onclick="Logout">Log Out</MudNavLink></MudMenuItem>
+			</MudMenu>
+		</Authorized>
+	</AuthorizeView>
+	<AuthorizeView>
+		<NotAuthorized>
+			<div class="d-flex">
+				<MudLink Class="ml-1 mr-1 white-text" Href="login"><MudText>Login</MudText></MudLink>
+				|
+				<MudLink Class="ml-1 mr-1 white-text" Href="register"><MudText>Register</MudText></MudLink >
+			</div>
+		</NotAuthorized>
+	</AuthorizeView>
+</MudAppBar>
+
+@code {
+	
+	[Parameter]
+	public EventCallback OnSidebarToggled { get; set; }
+
+		
+	private async void Logout()
+	{
+		await LocalStorage.RemoveItemAsync("authToken");
+		await AuthStateProvider.GetAuthenticationStateAsync();
+		NavigationManager.NavigateTo("/");
+	}
+}

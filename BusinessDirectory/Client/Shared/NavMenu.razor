@@ -1,0 +1,25 @@
+﻿<MudDrawer @bind-Open="SideBarOpen" Elevation="1">
+    <MudDrawerHeader>
+        <MudText>E-Voting</MudText>
+        <MudText Color="@Color.Primary">System</MudText>
+    </MudDrawerHeader>
+    <MudNavMenu>
+        <AuthorizeView Roles="Admin, Support">
+            <NotAuthorized>
+                <MudNavLink Href="/" Match="NavLinkMatch.All" Icon="@Icons.Filled.Home">Home</MudNavLink>
+                <MudNavLink Href="/VotingPage" Match="NavLinkMatch.All" Icon="@Icons.Filled.HowToVote">Vote Here</MudNavLink>
+                <MudNavLink Href="/VoteResults" Match="NavLinkMatch.All" Icon="@Icons.Filled.Reviews">View Results</MudNavLink>
+            </NotAuthorized>
+        </AuthorizeView>
+        <AuthorizeView Roles="Admin">
+            <Authorized>
+                <MudNavLink Href="/UserRoles" Match="NavLinkMatch.All" Icon="@Icons.Filled.Link">Admin</MudNavLink>
+            </Authorized>
+        </AuthorizeView>
+    </MudNavMenu>
+</MudDrawer>
+
+@code {
+    [Parameter]
+    public bool SideBarOpen { get; set; }
+}

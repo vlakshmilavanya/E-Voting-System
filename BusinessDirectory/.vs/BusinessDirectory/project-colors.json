@@ -1,0 +1,51 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "fb92c359-e2bd-4197-bc84-1fce75014087": {
+      "ProjectGuid": "fb92c359-e2bd-4197-bc84-1fce75014087",
+      "DisplayName": "BusinessDirectory.Server",
+      "ColorIndex": 0
+    },
+    "5792e4ee-2658-4281-aeb3-c89dd37c1a2a": {
+      "ProjectGuid": "5792e4ee-2658-4281-aeb3-c89dd37c1a2a",
+      "DisplayName": "BusinessDirectory.Client",
+      "ColorIndex": 1
+    },
+    "39e2a51a-ab39-4acb-8c5f-33c80b75fbec": {
+      "ProjectGuid": "39e2a51a-ab39-4acb-8c5f-33c80b75fbec",
+      "DisplayName": "BusinessDirectory.ViewModels",
+      "ColorIndex": 2
+    },
+    "e91d6441-9588-4fad-9d6c-205b63ad35da": {
+      "ProjectGuid": "e91d6441-9588-4fad-9d6c-205b63ad35da",
+      "DisplayName": "BusinessDirectory.DB",
+      "ColorIndex": 3
+    },
+    "2df5b757-9151-4871-8c83-8a7386aec665": {
+      "ProjectGuid": "2df5b757-9151-4871-8c83-8a7386aec665",
+      "DisplayName": "BusinessDirectory.Helpers",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "451efd6b-4b20-4431-9af7-564278c55b74": {
+      "ProjectGuid": "451efd6b-4b20-4431-9af7-564278c55b74",
+      "DisplayName": "BusinessDirectory.Data",
+      "ColorIndex": 5
+    },
+    "61ae34b0-7eda-450a-b00b-49dcafec2de6": {
+      "ProjectGuid": "61ae34b0-7eda-450a-b00b-49dcafec2de6",
+      "DisplayName": "BusinessDirectory.MailClient",
+      "ColorIndex": 6
+    },
+    "27f02afb-5e03-4395-a5cc-ef39409c1519": {
+      "ProjectGuid": "27f02afb-5e03-4395-a5cc-ef39409c1519",
+      "DisplayName": "BusinessDirectory.UIControls",
+      "ColorIndex": 7
+    }
+  },
+  "NextColorIndex": 8
+}

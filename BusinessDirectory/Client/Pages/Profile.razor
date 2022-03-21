@@ -1,0 +1,118 @@
+﻿@page "/profile"
+
+@using System.ComponentModel.DataAnnotations;
+@using BusinessDirectory.DB.Models;
+@using BusinessDirectory.Client.Services;
+@using BusinessDirectory.ViewModels;
+@inject IStateService stateService
+@inject IAddressService addressService
+@inject NavigationManager NavigationManager
+@inject AuthenticationStateProvider AuthStateProvider
+@inject IUser userService
+@inject ISnackbar Snackbar
+<PageTitle>Profile</PageTitle>
+
+<h5>Profile</h5>
+<EditForm class="pt-8" Model="@model" OnValidSubmit="OnValidSubmit">
+<DataAnnotationsValidator/>
+<MudGrid>    
+    <MudItem sm="12">
+        <MudCard>
+            <MudCardContent>
+                Please Provide your details
+                <MudGrid>
+                    <MudItem sm="12" md="6">
+                        <MudTextField Label="First Name"
+                              @bind-Value="model.FirstName" For="@(() => model.FirstName)"/>
+                    </MudItem>
+                    <MudItem sm="12" md="6">
+                        <MudTextField Label="Last Name"
+                              @bind-Value="model.LastName" For="@(() => model.LastName)"/>
+                    </MudItem>
+
+                    <MudItem sm="12" md="6">
+                        <MudTextField Label="Email"
+                              @bind-Value="model.EmailAddress" For="@(() => model.EmailAddress)"/>
+                    </MudItem>
+                    <MudItem sm="12" md="6">
+                        <MudTextField Label="Mobile Number"
+                              @bind-Value="model.MobileNumber" For="@(() => model.MobileNumber)"/>
+                    </MudItem>
+                    <MudItem sm="8" md="4">
+                        <MudTextField Label="Building"
+                              @bind-Value="model.Building" For="@(() => model.Building)"/>
+                    </MudItem>
+                    <MudItem sm="8" md="4">
+                        <MudTextField Label="Street"
+                              @bind-Value="model.Street" For="@(() => model.Street)"/>
+                    </MudItem>
+                    <MudItem sm="8" md="4">
+                        <MudTextField Label="LandMark"
+                              @bind-Value="model.Landmark" For="@(() => model.Landmark)"/>
+                    </MudItem>
+                    <MudItem sm="8" md="4">
+                        <MudTextField Label="Area"
+                              @bind-Value="model.Area" For="@(() => model.Area)"/>
+                    </MudItem>
+                    <MudItem sm="8" md="4">
+                        <MudTextField Label="State"
+                              @bind-Value="model.StateName" For="@(() => model.StateName)"/>
+                    </MudItem>
+                    <MudItem sm="8" md="4">
+                        <MudTextField Label="City"
+                              @bind-Value="model.City" For="@(() => model.City)"/>
+                    </MudItem>
+                    
+                    <MudItem sm="24" md="4">
+                        <MudTextField Label="Pincode"
+                              @bind-Value="model.Pincode" For="@(() => model.Pincode)"/>
+                    </MudItem>
+
+                </MudGrid>
+            </MudCardContent>
+            <MudCardActions>
+                <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Primary" Class="ml-auto">Save</MudButton>
+            </MudCardActions>
+        </MudCard>
+    </MudItem>
+</MudGrid>
+</EditForm>
+
+@code {
+    public ProfileModel model = new ProfileModel();
+    User user = new User();
+    public int UserId;
+    bool success;
+
+    protected override async Task OnInitializedAsync()
+    {
+        AuthenticationState ac = await AuthStateProvider.GetAuthenticationStateAsync();
+        UserId = Int32.Parse(ac.User.Claims.First(i => i.Type == System.Security.Claims.ClaimTypes.NameIdentifier).Value);
+
+        user = await userService.GetUser(UserId);
+        model.UserId = user.UserId;
+        model.FirstName = user.FirstName;
+        model.LastName = user.LastName;
+        model.EmailAddress = user.EmailAddress;
+        model.MobileNumber = user.MobileNumber;
+        model.Street = user.Address.Street;
+        model.Building = user.Address.Building;
+        model.Landmark = user.Address.Landmark;
+        model.Area = user.Address.Area;
+        model.City = user.Address.City;
+        model.Pincode = user.Address.Pincode;
+        model.StateName = user.Address.State.StateName; 
+    }
+
+    private async Task OnValidSubmit(EditContext context)
+    {
+        var result_State= await stateService.addProfileState(model);
+        model.StateId = result_State.StateId;
+        var addressResult = await addressService.addAddress(model);
+        model.AddressID = addressResult.AddressID;
+        await userService.UpdateUser(model);
+        Snackbar.Add("Profile Updated Sucessfully", Severity.Success);
+        NavigationManager.NavigateTo("/myprofile");
+    }
+
+}

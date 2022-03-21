@@ -1,0 +1,62 @@
+﻿@inherits LayoutComponentBase
+
+<MudThemeProvider Theme="@_currentTheme"/>
+<MudDialogProvider />
+<MudSnackbarProvider />
+
+<MudLayout>
+	<TopBar OnSidebarToggled="ToggleSidebar" />
+
+	<NavMenu SideBarOpen="_sidebarOpen" />
+
+	<MudMainContent>
+		<MudContainer Class="pt-4">
+			<div class="bd-main-container">
+				@Body
+			</div>
+			<Footer/>
+		</MudContainer>
+
+	</MudMainContent>
+   
+</MudLayout>
+
+<MudThemeProvider Theme="_currentTheme" />
+
+@code {
+	private MudTheme _currentTheme = null;
+	private bool _sidebarOpen = false;
+
+
+	private void ToggleTheme(MudTheme changedTheme) => _currentTheme = changedTheme;
+
+	private void ToggleSidebar() => _sidebarOpen = !_sidebarOpen;
+
+	MudTheme _bdTheme = new MudTheme()
+	{
+		Palette = new Palette()
+		{
+			Primary = "#B4CFB0",
+			Secondary = "#94B49F",
+			AppbarBackground = "#E5E3C9",
+			//AppbarText = "#515151",
+			Tertiary="#789395"
+		},
+		PaletteDark = new Palette()
+		{
+			Primary = Colors.Blue.Lighten1
+		},
+
+		LayoutProperties = new LayoutProperties()
+		{
+			DrawerWidthLeft = "260px",
+			DrawerWidthRight = "300px"
+		}
+	};
+
+	protected async override Task OnInitializedAsync()
+	{
+		_currentTheme = _bdTheme;
+	}
+
+}

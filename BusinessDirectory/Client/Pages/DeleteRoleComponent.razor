@@ -1,0 +1,23 @@
+﻿@page "/Role/Delete/{Id:int}"
+@using BusinessDirectory.DB.Models;
+@using BusinessDirectory.Client.Services;
+@using BusinessDirectory.ViewModels
+@inject IRoles rolesService
+@inject NavigationManager NavigationManager
+
+<h3>Deleting...</h3>
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+    protected  override async Task OnInitializedAsync()
+    {
+        RolesModel model = new RolesModel();
+        var role = await rolesService.GetRoleById(Id);
+        model.RoleID = role.RoleID;
+        model.UserID = role.UserID;
+        await rolesService.DeleteRole(model);
+        NavigationManager.NavigateTo("/UserRoles");
+
+    }
+}

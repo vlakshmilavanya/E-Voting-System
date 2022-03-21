@@ -1,0 +1,24 @@
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\MailClient\bin\Debug\net6.0\BusinessDirectory.MailClient.deps.json
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\MailClient\bin\Debug\net6.0\BusinessDirectory.MailClient.dll
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\MailClient\bin\Debug\net6.0\ref\BusinessDirectory.MailClient.dll
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\MailClient\bin\Debug\net6.0\BusinessDirectory.MailClient.pdb
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\MailClient\obj\Debug\net6.0\BusinessDirectory.MailClient.csproj.AssemblyReference.cache
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\MailClient\obj\Debug\net6.0\BusinessDirectory.MailClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\MailClient\obj\Debug\net6.0\BusinessDirectory.MailClient.AssemblyInfoInputs.cache
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\MailClient\obj\Debug\net6.0\BusinessDirectory.MailClient.AssemblyInfo.cs
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\MailClient\obj\Debug\net6.0\BusinessDirectory.MailClient.csproj.CoreCompileInputs.cache
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\MailClient\obj\Debug\net6.0\BusinessDirectory.MailClient.dll
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\MailClient\obj\Debug\net6.0\ref\BusinessDirectory.MailClient.dll
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\MailClient\obj\Debug\net6.0\BusinessDirectory.MailClient.pdb
+C:\Users\hp\OneDrive\Desktop\Major Project\BusinessDirectory\MailClient\bin\Debug\net6.0\BusinessDirectory.MailClient.deps.json
+C:\Users\hp\OneDrive\Desktop\Major Project\BusinessDirectory\MailClient\bin\Debug\net6.0\BusinessDirectory.MailClient.dll
+C:\Users\hp\OneDrive\Desktop\Major Project\BusinessDirectory\MailClient\bin\Debug\net6.0\ref\BusinessDirectory.MailClient.dll
+C:\Users\hp\OneDrive\Desktop\Major Project\BusinessDirectory\MailClient\bin\Debug\net6.0\BusinessDirectory.MailClient.pdb
+C:\Users\hp\OneDrive\Desktop\Major Project\BusinessDirectory\MailClient\obj\Debug\net6.0\BusinessDirectory.MailClient.csproj.AssemblyReference.cache
+C:\Users\hp\OneDrive\Desktop\Major Project\BusinessDirectory\MailClient\obj\Debug\net6.0\BusinessDirectory.MailClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\OneDrive\Desktop\Major Project\BusinessDirectory\MailClient\obj\Debug\net6.0\BusinessDirectory.MailClient.AssemblyInfoInputs.cache
+C:\Users\hp\OneDrive\Desktop\Major Project\BusinessDirectory\MailClient\obj\Debug\net6.0\BusinessDirectory.MailClient.AssemblyInfo.cs
+C:\Users\hp\OneDrive\Desktop\Major Project\BusinessDirectory\MailClient\obj\Debug\net6.0\BusinessDirectory.MailClient.csproj.CoreCompileInputs.cache
+C:\Users\hp\OneDrive\Desktop\Major Project\BusinessDirectory\MailClient\obj\Debug\net6.0\BusinessDirectory.MailClient.dll
+C:\Users\hp\OneDrive\Desktop\Major Project\BusinessDirectory\MailClient\obj\Debug\net6.0\ref\BusinessDirectory.MailClient.dll
+C:\Users\hp\OneDrive\Desktop\Major Project\BusinessDirectory\MailClient\obj\Debug\net6.0\BusinessDirectory.MailClient.pdb

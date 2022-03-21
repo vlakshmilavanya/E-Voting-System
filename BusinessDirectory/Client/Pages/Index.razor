@@ -1,0 +1,95 @@
+﻿@page "/"
+@using System.ComponentModel.DataAnnotations;
+@using BusinessDirectory.Client.Services;
+@using BusinessDirectory.DB.Models;
+@inject NavigationManager NavigationManager
+
+<PageTitle>Home | E-Voting System</PageTitle>
+
+<MudPaper Class="pb-16" Height="100%" Width="100%" Style="@($" background:{Colors.Grey.Lighten3};")">
+	<MudContainer Fixed="true">
+		<br/>
+		<MudCarousel Class="mud-width-full idx-h-280px"  ShowArrows="@arrows" ShowBullets="@bullets" AutoCycle="@autocycle" TData="object">
+	<MudCarouselItem Transition="transition" Color="@Color.Primary">
+		 <div class="d-flex idx-h-100">
+			<MudImage class="idxcarousel-img" Src="Images/banner1.jpg" Alt="Banner1" Elevation="25"/>
+		</div>
+	</MudCarouselItem>
+	<MudCarouselItem Transition="transition" Color="@Color.Primary">
+		<div class="d-flex idx-h-100">
+			<MudImage class="idxcarousel-img" Src="Images/online-voting.webp" Alt="Banner2" Elevation="25"/>
+		</div>  
+	 </MudCarouselItem>
+	<MudCarouselItem Transition="transition" Color="@Color.Primary">
+		<div class="d-flex idx-h-100">
+			<MudImage class="idxcarousel-img" Src="Images\Online-Ballots.png" Alt="Banner3" Elevation="25"/>
+		</div>
+	</MudCarouselItem>
+</MudCarousel>
+<br/>
+<h5>Services</h5>
+<br/>
+<MudGrid>
+	
+</MudGrid>
+<br/>
+<MudPaper Square="true">
+	<MudList Clickable="true">
+		<MudListItem>
+			<MudText Class="d-flex align-center justify-center" Typo="Typo.body2">Edit Profile</MudText>
+			<MudButton Class="d-flex align-center justify-center mud-width-full" Variant="Variant.Text" Color="Color.Dark" OnClick="ProfileUpdate">Profile</MudButton>
+		</MudListItem>
+		<MudDivider />
+		<MudListItem>
+			<MudText Class="d-flex align-center justify-center" Typo="Typo.body2">Vote Here</MudText>
+			<MudButton Class="d-flex align-center justify-center mud-width-full" Variant="Variant.Text" Color="Color.Dark" OnClick="VoteNow">Vote Now</MudButton>   
+		</MudListItem>
+		<MudDivider />
+		<MudListItem>
+			<MudText Class="d-flex align-center justify-center mud-width-full" Typo="Typo.body2">View Voting Results</MudText>
+			<MudButton Class="d-flex align-center justify-center mud-width-full" Variant="Variant.Text" Color="Color.Dark" OnClick="Results">View Results</MudButton>
+		</MudListItem>
+		<MudDivider />
+	</MudList>
+</MudPaper>
+
+
+@*<MudDivider DividerType="DividerType.Middle" Class="my-6"/>
+
+ <MudButton Link="/" Variant="Variant.Text" Color="Color.Dark" Style="text-transform:none" Class = "pr-16 pl-16">About Us</MudButton>
+ <MudButton Link="/" Variant="Variant.Text" Color="Color.Dark" Style="text-transform:none" Class = "pr-16">Customer Care</MudButton>
+ <MudButton Link="/" Variant="Variant.Text" Color="Color.Dark" Style="text-transform:none" Class = "pr-16">Free Listing</MudButton>
+ <MudButton Link="/" Variant="Variant.Text" Color="Color.Dark" Style="text-transform:none" Class = "pr-16">Advertise</MudButton>
+ <MudButton Link="/" Variant="Variant.Text" Color="Color.Dark" Style="text-transform:none" Class = "pr-16">Report a bug</MudButton>
+ <MudButton Link="/" Variant="Variant.Text" Color="Color.Dark" Style="text-transform:none" Class = "pr-16">Keep in Touch</MudButton>
+ <MudIcon Icon="@Icons.Filled.Facebook" Title="BusinessDirectory" />
+
+ <MudDivider DividerType="DividerType.Middle" Class="my-6"/>*@
+
+	</MudContainer>
+</MudPaper>
+
+
+	@code {
+	private bool arrows = true;
+	private bool bullets = true;
+	private bool autocycle = true;
+	private Transition transition = Transition.Slide;
+	public int spacing { get; set; } = 2;
+
+	async Task ProfileUpdate()
+    {
+        NavigationManager.NavigateTo("/profile");
+    }
+
+	async Task VoteNow()
+    {
+        NavigationManager.NavigateTo("/VotingPage");
+    }
+
+	async Task Results()
+    {
+        NavigationManager.NavigateTo("/VoteResults");
+    }
+
+}

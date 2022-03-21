@@ -1,0 +1,99 @@
+﻿@page "/login"
+@inject NavigationManager NavigationManager
+@inject IAuthService AuthService
+@inject ILocalStorageService LocalStorage
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@inject ISnackbar Snackbar
+
+<PageTitle>Login</PageTitle>
+
+<MudText Typo="Typo.h4" Color="Color.Tertiary">Login</MudText>
+<MudText>Please Login below or <a href="register">Register</a> for a new account.</MudText>
+
+<EditForm Model="userLogin" OnValidSubmit="HandleGetOTP">
+    <DataAnnotationsValidator/>
+    <div class="form-group">
+        <MudTextField id="email" Label="email" ReadOnly=@isOtpSend @bind-Value="userLogin.Email" contenteditable=@isOtpNotSend For="@(() => userLogin.Email)"  class="form-control"></MudTextField>
+    </div>  
+    <MudCardActions>
+        <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Tertiary" Class="ml-auto">@btnLabel</MudButton>
+        
+    </MudCardActions>
+</EditForm>
+
+<EditForm Model="userOTP" OnValidSubmit="HandleLogin" hidden=@isOtpNotSend>
+    <DataAnnotationsValidator/>
+    <div class="form-group">
+        <MudTextField id="otp" @bind-Value="userOTP.OTP" For="@(() => userOTP.OTP)" Label="OTP" Class="form-control"></MudTextField>
+    </div>
+    <MudCardActions>
+        <MudButton ButtonType="ButtonType.Submit"  Variant="Variant.Filled" Color="Color.Tertiary" Class="ml-auto">Login</MudButton>
+    </MudCardActions>
+</EditForm>
+@code {
+    UserLogin userLogin = new UserLogin();
+    UserOTP userOTP = new UserOTP();
+    private bool isOtpNotSend = true;
+    private bool isOtpSend = false;
+    private string btnLabel = "Get Otp";
+    async void HandleLogin()
+    {
+        var result = await AuthService.Login(userLogin, userOTP);
+        if (result.Success)
+        {
+            await LocalStorage.SetItemAsync<string>("authToken", result.Data);
+            await AuthenticationStateProvider.GetAuthenticationStateAsync();
+
+            if (NavigationManager.Uri.EndsWith("/login"))
+            {
+                NavigationManager.NavigateTo("/");
+            }
+            else
+            {
+                NavigationManager.NavigateTo(NavigationManager.Uri);
+            }
+        }
+        else
+        {
+            Console.WriteLine(result.Message);
+            if(result.Message=="User not found.")
+            {
+                Snackbar.Add("Your are not registered", Severity.Error);
+            }
+            else if(result.Message=="Invalid OTP")
+            {
+                Snackbar.Add("Incorrect Otp", Severity.Error);
+            }
+        }
+    }
+
+    async void HandleGetOTP()
+    {
+
+        if(btnLabel=="Get Otp")
+        {
+            isOtpNotSend = false;
+            isOtpSend = true;
+            btnLabel = "Edit Mail";
+        }
+        else
+        {
+            isOtpNotSend = true;
+            isOtpSend = false;
+            btnLabel = "Get Otp";
+        }
+
+        userLogin.OTPValidate = new OTPValidate() { UserOTP = string.Empty, EncryptedActualOTPTimestamp = string.Empty };
+        var result = await AuthService.GetOTP(userLogin);
+        if (result.Success)
+        {
+            Console.WriteLine(result.Message);
+            await LocalStorage.SetItemAsync<string>("OTP", result.Data);
+        }
+        else
+        {
+            Console.WriteLine(result.Message);
+        }
+        
+    }
+}

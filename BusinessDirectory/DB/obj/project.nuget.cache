@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "LCY3JCoyWXcVBoFYUsmPeKyzm+ykBytVNQbbYyn/0ArTCmauM9TyKs+3L4/GfEU2nZBiBUYj/5SkJ+mnFGKZjw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\DB\\BusinessDirectory.DB.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hp\\.nuget\\packages\\browserinterop\\1.1.2\\browserinterop.1.1.2.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.8\\microsoft.aspnetcore.authorization.3.1.8.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.8\\microsoft.aspnetcore.components.3.1.8.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\3.1.8\\microsoft.aspnetcore.components.analyzers.3.1.8.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.metadata\\3.1.8\\microsoft.aspnetcore.metadata.3.1.8.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.8\\microsoft.extensions.dependencyinjection.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.8\\microsoft.extensions.logging.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.options\\3.1.8\\microsoft.extensions.options.3.1.8.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.8\\microsoft.extensions.primitives.3.1.8.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.jsinterop\\3.1.8\\microsoft.jsinterop.3.1.8.nupkg.sha512"
+  ],
+  "logs": []
+}

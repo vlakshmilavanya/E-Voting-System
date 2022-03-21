@@ -1,0 +1,102 @@
+﻿@page "/UserRoles"
+@using BusinessDirectory.DB.Models;
+@using BusinessDirectory.Client.Services;
+@using BusinessDirectory.ViewModels;
+@using BusinessDirectory.UIControls.LoadingIcon
+@inject IUser userService
+@inject IRoles rolesService
+@inject AuthenticationStateProvider AuthStateProvider
+@inject NavigationManager NavigationManager
+
+<PageTitle>User Roles</PageTitle>
+
+<h3>UserRoles</h3>
+@if (roles.Count() == 0)
+{
+    <Loading></Loading>
+}
+else {
+@if (@role.RoleType.RoleTitle == "Admin")
+{
+    <MudButton OnClick = "@(() => Add())" Target="_blank" Variant="Variant.Filled" Color="Color.Primary">Add</MudButton>
+}
+else
+{
+    <MudButton Variant="Variant.Filled" Color="Color.Primary" Disabled>Add</MudButton>
+}
+<MudTable Items="@roles.Take(10)" Hover="true">
+    <HeaderContent>
+        <MudTh>UserId</MudTh>
+        <MudTh>Name</MudTh>
+        <MudTh>Roles</MudTh>
+        <MudTh>Joined Date</MudTh>
+        <MudTh>Status</MudTh>
+        <MudTh>Delete</MudTh>
+    </HeaderContent>
+    <RowTemplate>
+        <MudTd DataLabel="UserId">@context.UserID</MudTd>
+        <MudTd DataLabel="Name">@context.User.FirstName</MudTd>
+        <MudTd DataLabel="Roles">@context.RoleType.RoleTitle</MudTd>
+        <MudTd DataLabel="Joined Date">@context.RolesTimestamp</MudTd>
+        <MudTd DataLabel="Status">
+            @if (@role.RoleType.RoleTitle == "Admin") {
+             <MudButton OnClick = "@(() => ViewUser(context.RoleID))" Target="_blank" Variant="Variant.Filled" Color="Color.Primary">View
+             </MudButton>
+            }
+             else {
+             <MudButton Target="_blank" Variant="Variant.Filled" Color="Color.Primary" Disabled>View
+             </MudButton>
+             }
+        </MudTd>
+        <MudTd DataLabel="Delete">
+            @if (@role.RoleType.RoleTitle == "Admin") {
+             <MudButton OnClick = "@(() => DeleteUser(context.RoleID))" Target="_blank" Variant="Variant.Filled" Color="Color.Error">Delete
+             </MudButton>
+            }
+             else {
+             <MudButton Target="_blank" Variant="Variant.Filled" Color="Color.Error" Disabled>View
+             </MudButton>
+             }
+        </MudTd>
+    </RowTemplate>
+</MudTable>
+}
+@code {
+    List<Roles> roles = new List<Roles>();
+    List<Roles> rolesByUserId = new List<Roles>();
+    Roles role = new Roles();
+    RolesModel model = new RolesModel();
+
+    public int UserId;
+    public int Id;
+    protected override async Task OnInitializedAsync()
+    {
+        AuthenticationState ac = await AuthStateProvider.GetAuthenticationStateAsync();
+        UserId = Int32.Parse(ac.User.Claims.First(i => i.Type == System.Security.Claims.ClaimTypes.NameIdentifier).Value);
+        roles = await rolesService.GetAllRoles();
+        rolesByUserId = await rolesService.GetRoleByUserId(UserId);
+        role = rolesByUserId[0];
+        foreach(var item in rolesByUserId)
+        {
+            if(item.RoleType.RoleTitle == "Admin")
+            {
+                role = item;
+            }
+        }
+    }
+
+    async Task Add()
+    {
+        NavigationManager.NavigateTo($"/Roles/Add/{role.RoleID}");
+    }
+
+    async Task ViewUser(int id)
+    {
+        NavigationManager.NavigateTo($"/userprofile/{id}");
+    }
+
+    async Task DeleteUser(int id)
+    {
+        NavigationManager.NavigateTo($"/Role/Delete/{id}");
+    }
+}

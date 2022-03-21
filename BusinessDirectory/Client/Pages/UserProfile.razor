@@ -1,0 +1,83 @@
+﻿@page "/userprofile/{Id:int}"
+@using BusinessDirectory.DB.Models;
+@using BusinessDirectory.Client.Services;
+@using BusinessDirectory.ViewModels;
+@using System.Diagnostics
+@using BusinessDirectory.UIControls.LoadingIcon
+@inject IRoles rolesService
+@inject NavigationManager NavigationManager
+
+<PageTitle>User Profile</PageTitle>
+@if (!isRole)
+{
+    <Loading></Loading>
+}
+else
+{
+<h3>UserProfile</h3>
+<EditForm class="pt-8" Model="@model" OnValidSubmit="OnValidSubmit">
+<DataAnnotationsValidator/>
+<MudPaper>
+        <MudCard>
+            <MudCardContent>
+                    <MudTextField Label="UserID" @bind-Value="model.UserID" />
+                    <MudTextField Label="Name" @bind-Value="role.User.FirstName" />
+                    <MudTextField Label="Email" @bind-Value="role.User.EmailAddress" />
+                    <MudTextField Label="JoinedDate" @bind-Value="role.RolesTimestamp" />
+                    
+                    <MudSelect @bind-Value="@model.RoleTypeID" Label="Role" Variant="Variant.Outlined">
+                    @foreach(var item in response)
+                    {
+                        <MudSelectItem Value=@item.RoleTypeId>
+                             @item.RoleTitle
+                        </MudSelectItem>
+                    }
+                    </MudSelect>
+                    <MudGrid>
+                    <MudItem sm="8" md="4">
+                        Active :
+                    </MudItem>
+                    <MudItem sm="16" md="8">
+                        <MudCheckBox @bind-Checked="@Active" Label="Active"></MudCheckBox>
+                    </MudItem>
+                    <MudItem sm="12" md="8">
+                        <MudTextField Label="Created By" @bind-Value="role.User.FirstName"/>
+                    </MudItem>
+                    </MudGrid>
+                
+            </MudCardContent>
+            <MudCardActions>
+                <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Primary">Save</MudButton>
+            </MudCardActions>
+            </MudCard>
+</MudPaper>
+</EditForm>
+}
+@code {
+    [Parameter]
+    public int Id { get; set; }
+    public bool Active { get; set; }
+    Roles role = new Roles();
+    RolesModel model = new RolesModel();
+    List<RoleType> response = new List<RoleType>();
+    bool isRole = false;
+    protected override async Task OnInitializedAsync()
+    {
+        response = await rolesService.GetAllRoleTypes();
+        role = await rolesService.GetRoleById(Id);
+        isRole = true;
+       
+        model.CreatedBy = role.User.UserId;
+        model.RoleID = role.RoleID;
+        model.UserID = role.UserID;
+        model.RoleTypeID = role.RoleTypeID;
+        
+    }
+
+    private async Task OnValidSubmit(EditContext context)
+    {
+            model.IsActive = Active;
+            await rolesService.UpdateRole(model);
+            NavigationManager.NavigateTo("/UserRoles");
+    }
+}

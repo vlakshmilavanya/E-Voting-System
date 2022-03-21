@@ -1,0 +1,49 @@
+﻿@page "/candidatedetailspage/{Id:int}"
+@using System.ComponentModel.DataAnnotations;
+@using BusinessDirectory.Client.Services;
+@using BusinessDirectory.DB.Models;
+@using BusinessDirectory.UIControls.LoadingIcon
+@inject IUser userService
+@inject NavigationManager NavigationManager
+
+<PageTitle>Candidate Details</PageTitle>
+@if (!value)
+{
+    <Loading></Loading>
+}
+else
+{
+<h3>Candidate Details</h3>
+
+<EditForm class="pt-8" Model="@user">
+        <MudPaper>
+            <MudCard>
+                <MudCardContent>
+                    <MudTextField Label="UserId" @bind-Value="user.UserId" />
+                    <MudTextField Label="First Name" @bind-Value="user.FirstName" />
+                    <MudTextField Label="Last Name" @bind-Value="user.LastName" />
+                    <MudTextField Label="Email Address" @bind-Value="user.EmailAddress" />
+                </MudCardContent>
+                <MudCardActions>
+                    <MudButton OnClick = "@(() => Back())" Target="_blank" Variant="Variant.Filled" Color="Color.Primary" Class="ml-auto">Back
+                    </MudButton>
+                </MudCardActions>
+            </MudCard>
+        </MudPaper>
+</EditForm>
+}
+@code {
+    User user = new User();
+    [Parameter]
+    public int Id { get; set; }
+    bool value = false;
+    protected async override  Task OnInitializedAsync()
+    {
+        user = await userService.GetUser(Id);
+        value = true;
+    }
+    async Task Back()
+    {
+        NavigationManager.NavigateTo("/VoteResults");
+    }
+}

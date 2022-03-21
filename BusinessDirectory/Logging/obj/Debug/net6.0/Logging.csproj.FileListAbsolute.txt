@@ -1,0 +1,24 @@
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\Logging\bin\Debug\net6.0\Logging.deps.json
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\Logging\bin\Debug\net6.0\Logging.dll
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\Logging\bin\Debug\net6.0\ref\Logging.dll
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\Logging\bin\Debug\net6.0\Logging.pdb
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\Logging\obj\Debug\net6.0\Logging.csproj.AssemblyReference.cache
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\Logging\obj\Debug\net6.0\Logging.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\Logging\obj\Debug\net6.0\Logging.AssemblyInfoInputs.cache
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\Logging\obj\Debug\net6.0\Logging.AssemblyInfo.cs
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\Logging\obj\Debug\net6.0\Logging.csproj.CoreCompileInputs.cache
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\Logging\obj\Debug\net6.0\Logging.dll
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\Logging\obj\Debug\net6.0\ref\Logging.dll
+C:\Users\hp\OneDrive\Desktop\Project\Team3_Interns2022\BusinessDirectory\Logging\obj\Debug\net6.0\Logging.pdb
+C:\Users\hp\OneDrive\Desktop\Major Project\BusinessDirectory\Logging\bin\Debug\net6.0\Logging.deps.json
+C:\Users\hp\OneDrive\Desktop\Major Project\BusinessDirectory\Logging\bin\Debug\net6.0\Logging.dll
+C:\Users\hp\OneDrive\Desktop\Major Project\BusinessDirectory\Logging\bin\Debug\net6.0\ref\Logging.dll
+C:\Users\hp\OneDrive\Desktop\Major Project\BusinessDirectory\Logging\bin\Debug\net6.0\Logging.pdb
+C:\Users\hp\OneDrive\Desktop\Major Project\BusinessDirectory\Logging\obj\Debug\net6.0\Logging.csproj.AssemblyReference.cache
+C:\Users\hp\OneDrive\Desktop\Major Project\BusinessDirectory\Logging\obj\Debug\net6.0\Logging.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\OneDrive\Desktop\Major Project\BusinessDirectory\Logging\obj\Debug\net6.0\Logging.AssemblyInfoInputs.cache
+C:\Users\hp\OneDrive\Desktop\Major Project\BusinessDirectory\Logging\obj\Debug\net6.0\Logging.AssemblyInfo.cs
+C:\Users\hp\OneDrive\Desktop\Major Project\BusinessDirectory\Logging\obj\Debug\net6.0\Logging.csproj.CoreCompileInputs.cache
+C:\Users\hp\OneDrive\Desktop\Major Project\BusinessDirectory\Logging\obj\Debug\net6.0\Logging.dll
+C:\Users\hp\OneDrive\Desktop\Major Project\BusinessDirectory\Logging\obj\Debug\net6.0\ref\Logging.dll
+C:\Users\hp\OneDrive\Desktop\Major Project\BusinessDirectory\Logging\obj\Debug\net6.0\Logging.pdb

@@ -1,0 +1,35 @@
+﻿@page "/VotingSuccessful"
+@using BusinessDirectory.DB.Models;
+@using BusinessDirectory.Client.Services;
+@using BusinessDirectory.UIControls.LoadingIcon;
+@inject NavigationManager NavigationManager
+
+<PageTitle>Voting Successful</PageTitle>
+
+
+<MudGrid Class="d-flex justify-center align-center;">
+    <MudItem xs="12" sm="7">
+        <MudCard>
+             <MudCardMedia Image="Images/paymentsuccess.jpg" Height = "420" Elevation="5" Class="rounded-lg"/>
+             <MudCardContent>
+                   <MudText Typo="Typo.body2">Congratulations You Have Successfully Casted Your Vote</MudText>
+             </MudCardContent>
+             <MudCardActions>
+                 <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" OnClick = "@(e => AdMemberShip())" Color="Color.Primary">Go Back To Home</MudButton>
+             </MudCardActions>
+        </MudCard>      
+     </MudItem>
+</MudGrid>
+
+@code {
+    protected  override async Task OnInitializedAsync()
+    {
+       
+
+    }
+
+    async Task AdMemberShip()
+    {
+        NavigationManager.NavigateTo("/");
+    }
+}

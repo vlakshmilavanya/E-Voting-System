@@ -1,0 +1,95 @@
+﻿@page "/VotingPage"
+@using BusinessDirectory.DB.Models;
+@using BusinessDirectory.Client.Services;
+@using BusinessDirectory.UIControls.LoadingIcon
+@inject IVoting votingService
+@inject IUser userService
+@inject NavigationManager NavigationManager
+@inject ISnackbar Snackbar
+@inject AuthenticationStateProvider AuthStateProvider
+
+<h3>VotingPage</h3>
+<PageTitle>Voting </PageTitle>
+@if (!votingvalue)
+{
+    <Loading></Loading>
+}
+else
+{
+<EditForm class="pt-8" Model="@model" OnValidSubmit="OnValidSubmit">
+<DataAnnotationsValidator/>
+<MudPaper>
+        <MudCard>
+            <MudCardContent>
+                    <MudTextField Label="UserID" @bind-Value="user.UserId" />
+                    <MudTextField Label="Name" @bind-Value="user.FirstName" />
+                    <MudTextField Label="Email" @bind-Value="user.EmailAddress" />
+                    
+                    <MudSelect @bind-Value="@model.UserID" Label="Candidate" Variant="Variant.Outlined">
+                    @foreach(var item in response)
+                    {
+                        <MudSelectItem Value=@item.User.UserId>
+                             @item.User.FirstName
+                        </MudSelectItem>
+                    }
+                    </MudSelect>
+                
+            </MudCardContent>
+            <MudCardActions>
+                <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Primary">Vote</MudButton>
+            </MudCardActions>
+            </MudCard>
+</MudPaper>
+</EditForm>
+
+}
+
+@code {
+    bool votingvalue = false;
+    User user = new User();
+    User user1 = new User();
+    //List<User> users = new 
+    // List<User>();
+    public int UserId;
+    public int CandId;
+    ProfileModel modelUser = new ProfileModel();
+    List<Roles> response = new List<Roles>();
+    VoteModel model = new VoteModel();
+    protected  override async Task OnInitializedAsync()
+    {
+        AuthenticationState ac = await AuthStateProvider.GetAuthenticationStateAsync();
+        UserId = Int32.Parse(ac.User.Claims.First(i => i.Type == System.Security.Claims.ClaimTypes.NameIdentifier).Value);
+
+        user = await userService.GetUser(UserId);
+        model.Id = user.UserId;
+        response = await votingService.GetRolesByRole(2);
+        votingvalue = true;
+    }
+    private async Task OnValidSubmit(EditContext context)
+    {
+        //bool createResult = votingService.CheckId(model.Id).Result;
+        bool createResult = true;
+        if(createResult == true)
+        {
+            CandId = model.UserID;
+            modelUser.UserId = model.UserID;
+            user1 = await userService.GetUser(CandId);
+            modelUser.FirstName = user1.FirstName;
+            modelUser.LastName = user1.LastName;
+            modelUser.EmailAddress = user1.EmailAddress;
+            modelUser.MobileNumber = user1.MobileNumber;
+            modelUser.AddressID = user1.AddressID;
+            modelUser.numberOfVotes = user1.numberOfVotes + 1;
+            await userService.UpdateUser(modelUser);
+            model.IsActive = true;
+            await votingService.AddRole(model);
+            NavigationManager.NavigateTo("/VotingSuccessful");   
+        }
+        else {
+            Snackbar.Add("You have already Voted You cannot Vote again", Severity.Success);
+            NavigationManager.NavigateTo("/");
+        }
+    }
+    
+}
+
