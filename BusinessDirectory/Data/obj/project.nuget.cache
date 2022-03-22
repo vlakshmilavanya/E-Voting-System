@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wPEYdusY81wobZtrfEXNiuLmEtyIYnGLygFOloB+ntjXyBs0FlrJILY0KO+3cbjtDuqqucnkQgTMVdvWlz+Fqw==",
+  "dgSpecHash": "/S567fPPszFn6BQBpeXl83l91wGO4XomBitPqNl28htvZVbzUMvj2e8wKCSOrUy3/LMhl4FwCXa7jSZtEBhXiQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Data\\BusinessDirectory.Data.csproj",
+  "projectFilePath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Data\\BusinessDirectory.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\browserinterop\\1.1.2\\browserinterop.1.1.2.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",

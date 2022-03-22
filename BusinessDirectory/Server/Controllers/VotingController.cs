@@ -31,9 +31,12 @@ namespace BusinessDirectory.Server.Controllers
         {
             try
             {
-                //var response = await dbContext.Vote.FirstOrDefaultAsync(x => x.VoteId == wishlistModel.ServicesServiceID & x.UserId == wishlistModel.UserId);
-                //if (response != null)
-                //    return Ok(response);
+                var response = await dbContext.Vote.FirstOrDefaultAsync(x => x.Id == model.Id);
+                if (response != null)
+                {
+                    response.IsActive = false;
+                    return Ok(response);
+                }
                 Vote vote = new Vote()
                 {
                     Id = model.Id,

@@ -50,8 +50,7 @@ namespace BusinessDirectory.MailClient
                 mail.From = new MailAddress(senderAddress);
                 mail.Subject = "User OTP";
                 string body = "Dear User your Activation Code is " + activationCode;
-                body += "< br /> Thanks And Regards:" + " < br /> " + "Election Commission";
-                //body += "<br /> Thanks And Regards:" + "<br />" + senderSignature;
+                body += "<br /> Thanks And Regards:" + "<br />" + senderSignature;
                 mail.Body = body;
                 mail.IsBodyHtml = true;
                 NetworkCredential networkcredential = new NetworkCredential(senderAddress, senderPassword);

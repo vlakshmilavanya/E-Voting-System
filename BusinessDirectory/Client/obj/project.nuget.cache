@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wPw49b5Eshzj6bVVnCnfj/j+aVC8IuUCqQ0x6ri7J0jicnpwjrGfMGmN33IoYKoBEBr46uXyhAUzRE2qQRtqLA==",
+  "dgSpecHash": "UmB3VlypJbfX2ePwLCyb+lAAJP8wst99jj+Mf5Vee5ZP2bfgKkhlkWFupMMKvKSFR40hdTeqfgK/ZfUVBlfB6g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Client\\BusinessDirectory.Client.csproj",
+  "projectFilePath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Client\\BusinessDirectory.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\blazored.localstorage\\4.2.0\\blazored.localstorage.4.2.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\browserinterop\\1.1.2\\browserinterop.1.1.2.nupkg.sha512",

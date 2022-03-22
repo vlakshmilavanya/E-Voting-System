@@ -11,93 +11,93 @@ build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = BusinessDirectory.Client
 build_property.RootNamespace = BusinessDirectory.Client
-build_property.ProjectDir = C:\Users\hp\OneDrive\Desktop\Major Project\E-Voting-System\BusinessDirectory\Client\
+build_property.ProjectDir = C:\Users\hp\OneDrive\Desktop\Major\E-Voting-System\BusinessDirectory\Client\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\hp\OneDrive\Desktop\Major Project\E-Voting-System\BusinessDirectory\Client
+build_property.MSBuildProjectDirectory = C:\Users\hp\OneDrive\Desktop\Major\E-Voting-System\BusinessDirectory\Client
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/hp/OneDrive/Desktop/Major Project/E-Voting-System/BusinessDirectory/Client/App.razor]
+[C:/Users/hp/OneDrive/Desktop/Major/E-Voting-System/BusinessDirectory/Client/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Desktop/Major Project/E-Voting-System/BusinessDirectory/Client/Pages/AboutUs.razor]
+[C:/Users/hp/OneDrive/Desktop/Major/E-Voting-System/BusinessDirectory/Client/Pages/AboutUs.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXRVcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Desktop/Major Project/E-Voting-System/BusinessDirectory/Client/Pages/AddingRole.razor]
+[C:/Users/hp/OneDrive/Desktop/Major/E-Voting-System/BusinessDirectory/Client/Pages/AddingRole.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkaW5nUm9sZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Desktop/Major Project/E-Voting-System/BusinessDirectory/Client/Pages/CandidateDetailsPage.razor]
+[C:/Users/hp/OneDrive/Desktop/Major/E-Voting-System/BusinessDirectory/Client/Pages/CandidateDetailsPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuZGlkYXRlRGV0YWlsc1BhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Desktop/Major Project/E-Voting-System/BusinessDirectory/Client/Pages/DeleteRoleComponent.razor]
+[C:/Users/hp/OneDrive/Desktop/Major/E-Voting-System/BusinessDirectory/Client/Pages/DeleteRoleComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVsZXRlUm9sZUNvbXBvbmVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Desktop/Major Project/E-Voting-System/BusinessDirectory/Client/Pages/Index.razor]
+[C:/Users/hp/OneDrive/Desktop/Major/E-Voting-System/BusinessDirectory/Client/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Desktop/Major Project/E-Voting-System/BusinessDirectory/Client/Pages/Login.razor]
+[C:/Users/hp/OneDrive/Desktop/Major/E-Voting-System/BusinessDirectory/Client/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Desktop/Major Project/E-Voting-System/BusinessDirectory/Client/Pages/Myprofile.razor]
+[C:/Users/hp/OneDrive/Desktop/Major/E-Voting-System/BusinessDirectory/Client/Pages/Myprofile.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXlwcm9maWxlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Desktop/Major Project/E-Voting-System/BusinessDirectory/Client/Pages/Profile.razor]
+[C:/Users/hp/OneDrive/Desktop/Major/E-Voting-System/BusinessDirectory/Client/Pages/Profile.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Desktop/Major Project/E-Voting-System/BusinessDirectory/Client/Pages/Register.razor]
+[C:/Users/hp/OneDrive/Desktop/Major/E-Voting-System/BusinessDirectory/Client/Pages/Register.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Desktop/Major Project/E-Voting-System/BusinessDirectory/Client/Pages/UserProfile.razor]
+[C:/Users/hp/OneDrive/Desktop/Major/E-Voting-System/BusinessDirectory/Client/Pages/UserProfile.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclByb2ZpbGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Desktop/Major Project/E-Voting-System/BusinessDirectory/Client/Pages/UserRoles.razor]
+[C:/Users/hp/OneDrive/Desktop/Major/E-Voting-System/BusinessDirectory/Client/Pages/UserRoles.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclJvbGVzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Desktop/Major Project/E-Voting-System/BusinessDirectory/Client/Pages/VoteResults.razor]
+[C:/Users/hp/OneDrive/Desktop/Major/E-Voting-System/BusinessDirectory/Client/Pages/VoteResults.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVm90ZVJlc3VsdHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Desktop/Major Project/E-Voting-System/BusinessDirectory/Client/Pages/VotingPage.razor]
+[C:/Users/hp/OneDrive/Desktop/Major/E-Voting-System/BusinessDirectory/Client/Pages/VotingPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVm90aW5nUGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Desktop/Major Project/E-Voting-System/BusinessDirectory/Client/Pages/VotingSuccessful.razor]
+[C:/Users/hp/OneDrive/Desktop/Major/E-Voting-System/BusinessDirectory/Client/Pages/VotingSuccessful.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVm90aW5nU3VjY2Vzc2Z1bC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Desktop/Major Project/E-Voting-System/BusinessDirectory/Client/Shared/Footer.razor]
+[C:/Users/hp/OneDrive/Desktop/Major/E-Voting-System/BusinessDirectory/Client/Shared/Footer.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEZvb3Rlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Desktop/Major Project/E-Voting-System/BusinessDirectory/Client/Shared/SurveyPrompt.razor]
+[C:/Users/hp/OneDrive/Desktop/Major/E-Voting-System/BusinessDirectory/Client/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Desktop/Major Project/E-Voting-System/BusinessDirectory/Client/Shared/TopBar.razor]
+[C:/Users/hp/OneDrive/Desktop/Major/E-Voting-System/BusinessDirectory/Client/Shared/TopBar.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFRvcEJhci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Desktop/Major Project/E-Voting-System/BusinessDirectory/Client/_Imports.razor]
+[C:/Users/hp/OneDrive/Desktop/Major/E-Voting-System/BusinessDirectory/Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Desktop/Major Project/E-Voting-System/BusinessDirectory/Client/Shared/MainLayout.razor]
+[C:/Users/hp/OneDrive/Desktop/Major/E-Voting-System/BusinessDirectory/Client/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-kvhs9o7bg9
 
-[C:/Users/hp/OneDrive/Desktop/Major Project/E-Voting-System/BusinessDirectory/Client/Shared/NavMenu.razor]
+[C:/Users/hp/OneDrive/Desktop/Major/E-Voting-System/BusinessDirectory/Client/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-3iv56tlzar

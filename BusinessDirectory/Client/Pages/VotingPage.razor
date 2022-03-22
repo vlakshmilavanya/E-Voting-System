@@ -67,29 +67,30 @@ else
     }
     private async Task OnValidSubmit(EditContext context)
     {
-        //bool createResult = votingService.CheckId(model.Id).Result;
-        bool createResult = true;
-        if(createResult == true)
-        {
+
+       
             CandId = model.UserID;
-            modelUser.UserId = model.UserID;
-            user1 = await userService.GetUser(CandId);
-            modelUser.FirstName = user1.FirstName;
-            modelUser.LastName = user1.LastName;
-            modelUser.EmailAddress = user1.EmailAddress;
-            modelUser.MobileNumber = user1.MobileNumber;
-            modelUser.AddressID = user1.AddressID;
-            modelUser.numberOfVotes = user1.numberOfVotes + 1;
-            await userService.UpdateUser(modelUser);
             model.IsActive = true;
-            await votingService.AddRole(model);
-            NavigationManager.NavigateTo("/VotingSuccessful");   
+            var res = await votingService.AddRole(model);
+            if (res.IsActive != false)
+            {
+                modelUser.UserId = model.UserID;
+                user1 = await userService.GetUser(CandId);
+                modelUser.FirstName = user1.FirstName;
+                modelUser.LastName = user1.LastName;
+                modelUser.EmailAddress = user1.EmailAddress;
+                modelUser.MobileNumber = user1.MobileNumber;
+                modelUser.AddressID = user1.AddressID;
+                modelUser.numberOfVotes = user1.numberOfVotes + 1;
+                await userService.UpdateUser(modelUser);
+                NavigationManager.NavigateTo("/VotingSuccessful");
+            }
+            else
+            {
+                Snackbar.Add("You have already Voted You cannot Vote again", Severity.Error);
+                NavigationManager.NavigateTo("/");
+            }
         }
-        else {
-            Snackbar.Add("You have already Voted You cannot Vote again", Severity.Success);
-            NavigationManager.NavigateTo("/");
-        }
-    }
     
 }
 

@@ -82,7 +82,7 @@ namespace BusinessDirectory.Server.Controllers
             var emailClient = new EmailClient();
             var otp = emailClient.GenerateOTP();
             var encryptedOtp = EncryptionHelper.Encrypt($"{otp}${DateTime.UtcNow.ToString("yyyyMMddHHmmss")}");
-            bool emailSuccess = emailClient.SendEmail(user.Email, "businessdirectory.team3@gmail.com", "team3@123", "Team HyperMarket");
+            bool emailSuccess = emailClient.SendEmail(user.Email, "businessdirectory.team3@gmail.com", "team3@123", "Election Commission");
 
             if (!emailSuccess)
             {
