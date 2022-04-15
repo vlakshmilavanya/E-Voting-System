@@ -8,25 +8,25 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows,browser
 build_property.RootNamespace = BusinessDirectory.UIControls
 build_property.RootNamespace = BusinessDirectory.UIControls
-build_property.ProjectDir = C:\Users\hp\OneDrive\Desktop\Major\E-Voting-System\BusinessDirectory\UIControls\
+build_property.ProjectDir = C:\Users\hp\OneDrive\Desktop\Major Project\E-Voting-System\BusinessDirectory\UIControls\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\hp\OneDrive\Desktop\Major\E-Voting-System\BusinessDirectory\UIControls
+build_property.MSBuildProjectDirectory = C:\Users\hp\OneDrive\Desktop\Major Project\E-Voting-System\BusinessDirectory\UIControls
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/hp/OneDrive/Desktop/Major/E-Voting-System/BusinessDirectory/UIControls/GenericTable/GenericTable.razor]
+[C:/Users/hp/OneDrive/Desktop/Major Project/E-Voting-System/BusinessDirectory/UIControls/GenericTable/GenericTable.razor]
 build_metadata.AdditionalFiles.TargetPath = R2VuZXJpY1RhYmxlXEdlbmVyaWNUYWJsZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Desktop/Major/E-Voting-System/BusinessDirectory/UIControls/LoadingIcon/Loading.razor]
+[C:/Users/hp/OneDrive/Desktop/Major Project/E-Voting-System/BusinessDirectory/UIControls/LoadingIcon/Loading.razor]
 build_metadata.AdditionalFiles.TargetPath = TG9hZGluZ0ljb25cTG9hZGluZy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Desktop/Major/E-Voting-System/BusinessDirectory/UIControls/_Imports.razor]
+[C:/Users/hp/OneDrive/Desktop/Major Project/E-Voting-System/BusinessDirectory/UIControls/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Desktop/Major/E-Voting-System/BusinessDirectory/UIControls/Component1.razor]
+[C:/Users/hp/OneDrive/Desktop/Major Project/E-Voting-System/BusinessDirectory/UIControls/Component1.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50MS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-mz6veud5dx

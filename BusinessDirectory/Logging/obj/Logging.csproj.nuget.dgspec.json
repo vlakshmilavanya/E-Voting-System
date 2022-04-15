@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Logging\\Logging.csproj": {}
+    "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Logging\\Logging.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Logging\\Logging.csproj": {
+    "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Logging\\Logging.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Logging\\Logging.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Logging\\Logging.csproj",
         "projectName": "Logging",
-        "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Logging\\Logging.csproj",
+        "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Logging\\Logging.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Logging\\obj\\",
+        "outputPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Logging\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",

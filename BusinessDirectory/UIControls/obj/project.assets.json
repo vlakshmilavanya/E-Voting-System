@@ -537,11 +537,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\UIControls\\BusinessDirectory.UIControls.csproj",
+      "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\UIControls\\BusinessDirectory.UIControls.csproj",
       "projectName": "BusinessDirectory.UIControls",
-      "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\UIControls\\BusinessDirectory.UIControls.csproj",
+      "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\UIControls\\BusinessDirectory.UIControls.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\UIControls\\obj\\",
+      "outputPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\UIControls\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",

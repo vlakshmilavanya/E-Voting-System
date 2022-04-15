@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2KRLQ2ldareH392ernzhh4Thtv270rm2aegVig6d4P70SKbZqQWXTC2k2Ubcqsh2cFfonpD5LHR/JuRuxU3kQA==",
+  "dgSpecHash": "tAVTllCZXjiIRchdQNWnEwSYofJEXPBIENv3R18hzRB8GZ0Ne4UfWG+5PyBcde3afDIyA1oWdudayvB7fJxaKg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\UIControls\\BusinessDirectory.UIControls.csproj",
+  "projectFilePath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\UIControls\\BusinessDirectory.UIControls.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\browserinterop\\1.1.2\\browserinterop.1.1.2.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.1\\microsoft.aspnetcore.authorization.6.0.1.nupkg.sha512",

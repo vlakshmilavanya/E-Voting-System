@@ -3679,11 +3679,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Server\\BusinessDirectory.Server.csproj",
+      "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Server\\BusinessDirectory.Server.csproj",
       "projectName": "BusinessDirectory.Server",
-      "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Server\\BusinessDirectory.Server.csproj",
+      "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Server\\BusinessDirectory.Server.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Server\\obj\\",
+      "outputPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3700,20 +3700,20 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\BusinessDirectory.Helpers\\BusinessDirectory.Helpers.csproj": {
-              "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\BusinessDirectory.Helpers\\BusinessDirectory.Helpers.csproj"
+            "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\BusinessDirectory.Helpers\\BusinessDirectory.Helpers.csproj": {
+              "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\BusinessDirectory.Helpers\\BusinessDirectory.Helpers.csproj"
             },
-            "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Client\\BusinessDirectory.Client.csproj": {
-              "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Client\\BusinessDirectory.Client.csproj"
+            "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Client\\BusinessDirectory.Client.csproj": {
+              "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Client\\BusinessDirectory.Client.csproj"
             },
-            "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Data\\BusinessDirectory.Data.csproj": {
-              "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Data\\BusinessDirectory.Data.csproj"
+            "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Data\\BusinessDirectory.Data.csproj": {
+              "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Data\\BusinessDirectory.Data.csproj"
             },
-            "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\MailClient\\BusinessDirectory.MailClient.csproj": {
-              "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\MailClient\\BusinessDirectory.MailClient.csproj"
+            "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\MailClient\\BusinessDirectory.MailClient.csproj": {
+              "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\MailClient\\BusinessDirectory.MailClient.csproj"
             },
-            "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Shared\\BusinessDirectory.ViewModels.csproj": {
-              "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Shared\\BusinessDirectory.ViewModels.csproj"
+            "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Shared\\BusinessDirectory.ViewModels.csproj": {
+              "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Shared\\BusinessDirectory.ViewModels.csproj"
             }
           }
         }

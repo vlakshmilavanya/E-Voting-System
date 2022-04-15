@@ -27,5 +27,9 @@ namespace BusinessDirectory.DB.Models
         public bool IsVoter { get; set; } = false;
         public bool IsCandidate { get; set; } = false;
         public int numberOfVotes { get; set; } = 0;
+
+        [ForeignKey("tblAadhar")]
+        public Int32 AadharId { get; set; } = 0;
+        public AadharAuth? AadharAuth { get; set; }
     }
 }

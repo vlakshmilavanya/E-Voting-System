@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Server\\BusinessDirectory.Server.csproj": {}
+    "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Server\\BusinessDirectory.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\BusinessDirectory.Helpers\\BusinessDirectory.Helpers.csproj": {
+    "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\BusinessDirectory.Helpers\\BusinessDirectory.Helpers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\BusinessDirectory.Helpers\\BusinessDirectory.Helpers.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\BusinessDirectory.Helpers\\BusinessDirectory.Helpers.csproj",
         "projectName": "BusinessDirectory.Helpers",
-        "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\BusinessDirectory.Helpers\\BusinessDirectory.Helpers.csproj",
+        "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\BusinessDirectory.Helpers\\BusinessDirectory.Helpers.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\BusinessDirectory.Helpers\\obj\\",
+        "outputPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\BusinessDirectory.Helpers\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,14 +58,14 @@
         }
       }
     },
-    "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Client\\BusinessDirectory.Client.csproj": {
+    "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Client\\BusinessDirectory.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Client\\BusinessDirectory.Client.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Client\\BusinessDirectory.Client.csproj",
         "projectName": "BusinessDirectory.Client",
-        "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Client\\BusinessDirectory.Client.csproj",
+        "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Client\\BusinessDirectory.Client.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Client\\obj\\",
+        "outputPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,17 +82,17 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Data\\BusinessDirectory.Data.csproj": {
-                "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Data\\BusinessDirectory.Data.csproj"
+              "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Data\\BusinessDirectory.Data.csproj": {
+                "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Data\\BusinessDirectory.Data.csproj"
               },
-              "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\DB\\BusinessDirectory.DB.csproj": {
-                "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\DB\\BusinessDirectory.DB.csproj"
+              "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\DB\\BusinessDirectory.DB.csproj": {
+                "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\DB\\BusinessDirectory.DB.csproj"
               },
-              "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Shared\\BusinessDirectory.ViewModels.csproj": {
-                "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Shared\\BusinessDirectory.ViewModels.csproj"
+              "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Shared\\BusinessDirectory.ViewModels.csproj": {
+                "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Shared\\BusinessDirectory.ViewModels.csproj"
               },
-              "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\UIControls\\BusinessDirectory.UIControls.csproj": {
-                "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\UIControls\\BusinessDirectory.UIControls.csproj"
+              "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\UIControls\\BusinessDirectory.UIControls.csproj": {
+                "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\UIControls\\BusinessDirectory.UIControls.csproj"
               }
             }
           }
@@ -175,14 +175,14 @@
         }
       }
     },
-    "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Data\\BusinessDirectory.Data.csproj": {
+    "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Data\\BusinessDirectory.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Data\\BusinessDirectory.Data.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Data\\BusinessDirectory.Data.csproj",
         "projectName": "BusinessDirectory.Data",
-        "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Data\\BusinessDirectory.Data.csproj",
+        "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Data\\BusinessDirectory.Data.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Data\\obj\\",
+        "outputPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -199,8 +199,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\DB\\BusinessDirectory.DB.csproj": {
-                "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\DB\\BusinessDirectory.DB.csproj"
+              "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\DB\\BusinessDirectory.DB.csproj": {
+                "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\DB\\BusinessDirectory.DB.csproj"
               }
             }
           }
@@ -271,14 +271,14 @@
         }
       }
     },
-    "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\DB\\BusinessDirectory.DB.csproj": {
+    "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\DB\\BusinessDirectory.DB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\DB\\BusinessDirectory.DB.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\DB\\BusinessDirectory.DB.csproj",
         "projectName": "BusinessDirectory.DB",
-        "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\DB\\BusinessDirectory.DB.csproj",
+        "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\DB\\BusinessDirectory.DB.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\DB\\obj\\",
+        "outputPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\DB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -331,14 +331,14 @@
         }
       }
     },
-    "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\MailClient\\BusinessDirectory.MailClient.csproj": {
+    "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\MailClient\\BusinessDirectory.MailClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\MailClient\\BusinessDirectory.MailClient.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\MailClient\\BusinessDirectory.MailClient.csproj",
         "projectName": "BusinessDirectory.MailClient",
-        "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\MailClient\\BusinessDirectory.MailClient.csproj",
+        "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\MailClient\\BusinessDirectory.MailClient.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\MailClient\\obj\\",
+        "outputPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\MailClient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -391,14 +391,14 @@
         }
       }
     },
-    "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Server\\BusinessDirectory.Server.csproj": {
+    "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Server\\BusinessDirectory.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Server\\BusinessDirectory.Server.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Server\\BusinessDirectory.Server.csproj",
         "projectName": "BusinessDirectory.Server",
-        "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Server\\BusinessDirectory.Server.csproj",
+        "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Server\\BusinessDirectory.Server.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Server\\obj\\",
+        "outputPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -415,20 +415,20 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\BusinessDirectory.Helpers\\BusinessDirectory.Helpers.csproj": {
-                "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\BusinessDirectory.Helpers\\BusinessDirectory.Helpers.csproj"
+              "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\BusinessDirectory.Helpers\\BusinessDirectory.Helpers.csproj": {
+                "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\BusinessDirectory.Helpers\\BusinessDirectory.Helpers.csproj"
               },
-              "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Client\\BusinessDirectory.Client.csproj": {
-                "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Client\\BusinessDirectory.Client.csproj"
+              "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Client\\BusinessDirectory.Client.csproj": {
+                "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Client\\BusinessDirectory.Client.csproj"
               },
-              "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Data\\BusinessDirectory.Data.csproj": {
-                "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Data\\BusinessDirectory.Data.csproj"
+              "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Data\\BusinessDirectory.Data.csproj": {
+                "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Data\\BusinessDirectory.Data.csproj"
               },
-              "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\MailClient\\BusinessDirectory.MailClient.csproj": {
-                "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\MailClient\\BusinessDirectory.MailClient.csproj"
+              "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\MailClient\\BusinessDirectory.MailClient.csproj": {
+                "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\MailClient\\BusinessDirectory.MailClient.csproj"
               },
-              "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Shared\\BusinessDirectory.ViewModels.csproj": {
-                "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Shared\\BusinessDirectory.ViewModels.csproj"
+              "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Shared\\BusinessDirectory.ViewModels.csproj": {
+                "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Shared\\BusinessDirectory.ViewModels.csproj"
               }
             }
           }
@@ -500,14 +500,14 @@
         }
       }
     },
-    "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Shared\\BusinessDirectory.ViewModels.csproj": {
+    "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Shared\\BusinessDirectory.ViewModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Shared\\BusinessDirectory.ViewModels.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Shared\\BusinessDirectory.ViewModels.csproj",
         "projectName": "BusinessDirectory.ViewModels",
-        "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Shared\\BusinessDirectory.ViewModels.csproj",
+        "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Shared\\BusinessDirectory.ViewModels.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -560,14 +560,14 @@
         }
       }
     },
-    "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\UIControls\\BusinessDirectory.UIControls.csproj": {
+    "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\UIControls\\BusinessDirectory.UIControls.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\UIControls\\BusinessDirectory.UIControls.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\UIControls\\BusinessDirectory.UIControls.csproj",
         "projectName": "BusinessDirectory.UIControls",
-        "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\UIControls\\BusinessDirectory.UIControls.csproj",
+        "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\UIControls\\BusinessDirectory.UIControls.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\UIControls\\obj\\",
+        "outputPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\UIControls\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",

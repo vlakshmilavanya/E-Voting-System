@@ -13,6 +13,7 @@ namespace BusinessDirectory.ViewModels
         public string LastName { get; set; } = string.Empty;
         public string EmailAddress { get; set; } = string.Empty;
         public Int64 MobileNumber { get; set; }
+        public Int32 AadharId { get; set; }
         public Int32 AddressID { get; set; }
         public string Building { get; set; } = "";
         public string Street { get; set; } = "";
@@ -24,7 +25,7 @@ namespace BusinessDirectory.ViewModels
         public string StateName { get; set; } = "";
         public Int32 CountryId { get; set; }
         public string CountryName { get; set; } = "";
-
+        
         public bool IsVoter { get; set; } = false;
         public bool IsCandidate { get; set; } = false;
 

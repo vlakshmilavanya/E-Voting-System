@@ -1,14 +1,16 @@
 ﻿@page "/register"
+@using BusinessDirectory.DB.Models;
 @inject NavigationManager NavigationManager
 @inject IAuthService AuthService
 @inject ILocalStorageService LocalStorage
+@inject IAadhar aadharService
 @inject ISnackbar Snackbar
 
 <PageTitle>Register</PageTitle>
 
 <MudText Typo="Typo.h4" Color="Color.Tertiary">Register  for seamless experience</MudText>
 
-<EditForm Model="userRegister" OnValidSubmit="HandleGetOTP" hidden="@(!hideForm)">
+<EditForm Model="userRegister" OnValidSubmit="GetDetails" hidden="@(!hideForm)">
     <DataAnnotationsValidator/>
     <div class="form-group">
         <MudTextField id="email" Label="Email" @bind-Value="userRegister.Email" For="@(() => userRegister.Email)" class="form-control"></MudTextField>
@@ -19,8 +21,34 @@
     <div class="form-group">
         <MudTextField id="lastname" Label="Last Name" @bind-Value="userRegister.LastName"  For="@(() => userRegister.LastName)" class="form-control"></MudTextField>
     </div>
+    <div class="form-group">
+        <MudTextField id="aadharnumber" Label="Aadhar Number" @bind-Value="userRegister.AadharNumber"  For="@(() => userRegister.AadharNumber)" class="form-control"></MudTextField>
+    </div>
     <MudCardActions>
-        <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Tertiary" Class="ml-auto">Get OTP</MudButton>
+        <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Tertiary" Class="ml-auto">Get Details</MudButton>
+    </MudCardActions>
+</EditForm>
+
+<EditForm Model="@model" OnValidSubmit="HandleGetOTP" hidden="@(canvote)">
+    <DataAnnotationsValidator/>
+   @* <div class="form-group">
+        <MudTextField id="email" Label="Email" @bind-Value="userRegister.Email" For="@(() => userRegister.Email)" class="form-control"></MudTextField>
+    </div>
+    <div class="form-group">
+        <MudTextField id="firstname" Label="First Name" For="@(() => userRegister.FirstName)" @bind-Value="userRegister.FirstName" class="form-control"></MudTextField>
+    </div>
+    <div class="form-group">
+        <MudTextField id="lastname" Label="Last Name" @bind-Value="userRegister.LastName"  For="@(() => userRegister.LastName)" class="form-control"></MudTextField>
+    </div>
+    <div class="form-group">
+        <MudTextField id="aadharnumber" Label="Aadhar Number" @bind-Value="userRegister.AadharNumber"  For="@(() => userRegister.AadharNumber)" class="form-control"></MudTextField>
+    </div>*@
+    <div class="form-group">
+        <MudTextField Label = "Voter Id" @bind-Value="model.VoterId" For="@(() => model.VoterId)" Class="form-control" Disabled=true/>
+        <MudTextField Label = "Age" @bind-Value="model.Age" For="@(() => model.Age)" Class="form-control" Disabled=true/>
+    </div>
+    <MudCardActions>
+        <MudButton ButtonType="ButtonType.Submit"  Variant="Variant.Filled" Color="Color.Tertiary" Class="ml-auto">Get OTP</MudButton>
     </MudCardActions>
 </EditForm>
 
@@ -37,12 +65,58 @@
 @code {
     UserRegister userRegister = new UserRegister();
     UserOTP userOTP = new UserOTP();
+    AadharModel aadharModel = new AadharModel();
+    AadharAuth model = new AadharAuth();
     private bool hideForm = true;
+    private bool canvote = true;
+    async void GetDetails()
+    {
+        bool can = await aadharService.GetAadharByNumber(userRegister.AadharNumber);
+        if (can == false)
+        {
+            Snackbar.Add("Invalid Aadhar Number.Try Again!", Severity.Error);
+            NavigationManager.NavigateTo("Register");
+        }
+        else
+        {
+
+            model = await aadharService.GetAadharDetails(userRegister.AadharNumber);
+
+
+            if (model.IsActive == true)
+            {
+                Snackbar.Add("User Already Exists", Severity.Error);
+                NavigationManager.NavigateTo("login");
+            }
+            else
+            {
+
+
+                if (model.VoterId == null || model.Age < 18)
+                {
+                    Snackbar.Add("Cannot Vote", Severity.Error);
+
+                }
+                else
+                {
+                    canvote = false;
+                    userRegister.AadharId = model.AadharId;
+                }
+            }
+        }
+
+    }
     async void HandleRegistration()
     {
         var result = await AuthService.Register(userRegister, userOTP);
         if (result.Success)
         {
+            aadharModel.AadharId = model.AadharId;
+            aadharModel.AadharNumber = model.AadharNumber;
+            aadharModel.Age = model.Age;
+            aadharModel.IsActive = true;
+            aadharModel.VoterId = model.VoterId;
+            await aadharService.UpdateAadhar(aadharModel);
             NavigationManager.NavigateTo("login");
         }
         else

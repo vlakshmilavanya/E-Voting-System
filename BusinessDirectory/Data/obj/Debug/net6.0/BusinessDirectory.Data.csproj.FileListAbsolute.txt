@@ -49,3 +49,20 @@ C:\Users\hp\OneDrive\Desktop\Major\E-Voting-System\BusinessDirectory\Data\obj\De
 C:\Users\hp\OneDrive\Desktop\Major\E-Voting-System\BusinessDirectory\Data\obj\Debug\net6.0\ref\BusinessDirectory.Data.dll
 C:\Users\hp\OneDrive\Desktop\Major\E-Voting-System\BusinessDirectory\Data\obj\Debug\net6.0\BusinessDirectory.Data.pdb
 C:\Users\hp\OneDrive\Desktop\Major\E-Voting-System\BusinessDirectory\Data\obj\Debug\net6.0\BusinessDirectory.Data.genruntimeconfig.cache
+C:\Users\hp\OneDrive\Desktop\Major Project\E-Voting-System\BusinessDirectory\Data\bin\Debug\net6.0\BusinessDirectory.Data.deps.json
+C:\Users\hp\OneDrive\Desktop\Major Project\E-Voting-System\BusinessDirectory\Data\bin\Debug\net6.0\BusinessDirectory.Data.runtimeconfig.json
+C:\Users\hp\OneDrive\Desktop\Major Project\E-Voting-System\BusinessDirectory\Data\bin\Debug\net6.0\BusinessDirectory.Data.dll
+C:\Users\hp\OneDrive\Desktop\Major Project\E-Voting-System\BusinessDirectory\Data\bin\Debug\net6.0\ref\BusinessDirectory.Data.dll
+C:\Users\hp\OneDrive\Desktop\Major Project\E-Voting-System\BusinessDirectory\Data\bin\Debug\net6.0\BusinessDirectory.Data.pdb
+C:\Users\hp\OneDrive\Desktop\Major Project\E-Voting-System\BusinessDirectory\Data\bin\Debug\net6.0\BusinessDirectory.DB.dll
+C:\Users\hp\OneDrive\Desktop\Major Project\E-Voting-System\BusinessDirectory\Data\bin\Debug\net6.0\BusinessDirectory.DB.pdb
+C:\Users\hp\OneDrive\Desktop\Major Project\E-Voting-System\BusinessDirectory\Data\obj\Debug\net6.0\BusinessDirectory.Data.csproj.AssemblyReference.cache
+C:\Users\hp\OneDrive\Desktop\Major Project\E-Voting-System\BusinessDirectory\Data\obj\Debug\net6.0\BusinessDirectory.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\OneDrive\Desktop\Major Project\E-Voting-System\BusinessDirectory\Data\obj\Debug\net6.0\BusinessDirectory.Data.AssemblyInfoInputs.cache
+C:\Users\hp\OneDrive\Desktop\Major Project\E-Voting-System\BusinessDirectory\Data\obj\Debug\net6.0\BusinessDirectory.Data.AssemblyInfo.cs
+C:\Users\hp\OneDrive\Desktop\Major Project\E-Voting-System\BusinessDirectory\Data\obj\Debug\net6.0\BusinessDirectory.Data.csproj.CoreCompileInputs.cache
+C:\Users\hp\OneDrive\Desktop\Major Project\E-Voting-System\BusinessDirectory\Data\obj\Debug\net6.0\BusinessDirectory.Data.csproj.CopyComplete
+C:\Users\hp\OneDrive\Desktop\Major Project\E-Voting-System\BusinessDirectory\Data\obj\Debug\net6.0\BusinessDirectory.Data.dll
+C:\Users\hp\OneDrive\Desktop\Major Project\E-Voting-System\BusinessDirectory\Data\obj\Debug\net6.0\ref\BusinessDirectory.Data.dll
+C:\Users\hp\OneDrive\Desktop\Major Project\E-Voting-System\BusinessDirectory\Data\obj\Debug\net6.0\BusinessDirectory.Data.pdb
+C:\Users\hp\OneDrive\Desktop\Major Project\E-Voting-System\BusinessDirectory\Data\obj\Debug\net6.0\BusinessDirectory.Data.genruntimeconfig.cache

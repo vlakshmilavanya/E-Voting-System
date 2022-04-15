@@ -17,6 +17,31 @@ namespace BusinessDirectory.Data.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "6.0.2");
 
+            modelBuilder.Entity("BusinessDirectory.DB.Models.AadharAuth", b =>
+                {
+                    b.Property<int>("AadharId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("AadharNumber")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("Age")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("VoterId")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("AadharId");
+
+                    b.ToTable("tblAadhar");
+                });
+
             modelBuilder.Entity("BusinessDirectory.DB.Models.Address", b =>
                 {
                     b.Property<int>("AddressID")
@@ -206,6 +231,12 @@ namespace BusinessDirectory.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
+                    b.Property<int?>("AadharAuthAadharId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("AadharId")
+                        .HasColumnType("INTEGER");
+
                     b.Property<int>("AddressID")
                         .HasColumnType("INTEGER");
 
@@ -246,6 +277,8 @@ namespace BusinessDirectory.Data.Migrations
                         .HasColumnType("INTEGER");
 
                     b.HasKey("UserId");
+
+                    b.HasIndex("AadharAuthAadharId");
 
                     b.HasIndex("AddressID");
 
@@ -336,11 +369,17 @@ namespace BusinessDirectory.Data.Migrations
 
             modelBuilder.Entity("BusinessDirectory.DB.Models.User", b =>
                 {
+                    b.HasOne("BusinessDirectory.DB.Models.AadharAuth", "AadharAuth")
+                        .WithMany()
+                        .HasForeignKey("AadharAuthAadharId");
+
                     b.HasOne("BusinessDirectory.DB.Models.Address", "Address")
                         .WithMany()
                         .HasForeignKey("AddressID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("AadharAuth");
 
                     b.Navigation("Address");
                 });

@@ -24,6 +24,7 @@ namespace BusinessDirectory.Data
         public DbSet<ShareYourViews> ShareYourViews { get; set; }
         public DbSet<State> State { get; set; }
         public DbSet<Vote> Vote { get; set; }
+        public DbSet<AadharAuth> AadharAuth { get; set;}
         public object SubCategory { get; set; }
 
         #endregion

@@ -16,6 +16,7 @@ builder.Services.AddScoped<IStateService, StateService>();
 builder.Services.AddScoped<IAddressService,AddressService>();
 builder.Services.AddScoped<IRoles, RolesService>();
 builder.Services.AddScoped<IVoting, VotingService>();
+builder.Services.AddScoped<IAadhar, AadharService>();
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 builder.Services.AddScoped<AuthenticationStateProvider, CustomAuthStateProvider>();
 builder.Services.AddOptions();

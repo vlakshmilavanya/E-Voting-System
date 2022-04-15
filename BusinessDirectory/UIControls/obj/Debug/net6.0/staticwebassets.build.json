@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eph4pBso4CSY7KgNmudreT7ciD9YhwMp+n9fEyQoiFg=",
+  "Hash": "K2jjburEmAZw9fOBNRNsLXkeWdkXLSGN5WI6Skzx9ds=",
   "Source": "BusinessDirectory.UIControls",
   "BasePath": "_content/BusinessDirectory.UIControls",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "BusinessDirectory.UIControls\\wwwroot",
       "Source": "BusinessDirectory.UIControls",
-      "ContentRoot": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\UIControls\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\UIControls\\wwwroot\\",
       "BasePath": "_content/BusinessDirectory.UIControls",
       "Pattern": "**"
     }
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "C:\\Users\\hp\\.nuget\\packages\\browserinterop\\1.1.2\\staticwebassets\\scripts.js"
     },
     {
-      "Identity": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\UIControls\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BusinessDirectory.UIControls.styles.css",
+      "Identity": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\UIControls\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BusinessDirectory.UIControls.styles.css",
       "SourceId": "BusinessDirectory.UIControls",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\UIControls\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\UIControls\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BusinessDirectory.UIControls",
       "RelativePath": "BusinessDirectory.UIControls.styles.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\UIControls\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BusinessDirectory.UIControls.styles.css"
+      "OriginalItemSpec": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\UIControls\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BusinessDirectory.UIControls.styles.css"
     },
     {
-      "Identity": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\UIControls\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BusinessDirectory.UIControls.bundle.scp.css",
+      "Identity": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\UIControls\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BusinessDirectory.UIControls.bundle.scp.css",
       "SourceId": "BusinessDirectory.UIControls",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\UIControls\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\UIControls\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BusinessDirectory.UIControls",
       "RelativePath": "BusinessDirectory.UIControls.bundle.scp.css",
       "AssetKind": "All",
@@ -65,13 +65,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\UIControls\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BusinessDirectory.UIControls.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\UIControls\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BusinessDirectory.UIControls.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\UIControls\\wwwroot\\background.png",
+      "Identity": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\UIControls\\wwwroot\\background.png",
       "SourceId": "BusinessDirectory.UIControls",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\UIControls\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\UIControls\\wwwroot\\",
       "BasePath": "_content/BusinessDirectory.UIControls",
       "RelativePath": "background.png",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\background.png"
     },
     {
-      "Identity": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\UIControls\\wwwroot\\exampleJsInterop.js",
+      "Identity": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\UIControls\\wwwroot\\exampleJsInterop.js",
       "SourceId": "BusinessDirectory.UIControls",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\UIControls\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\UIControls\\wwwroot\\",
       "BasePath": "_content/BusinessDirectory.UIControls",
       "RelativePath": "exampleJsInterop.js",
       "AssetKind": "All",

@@ -32,6 +32,7 @@ namespace BusinessDirectory.Server.Controllers
                     FirstName = request.FirstName,
                     LastName = string.IsNullOrEmpty(request.LastName) ? string.Empty : request.LastName,
                     EmailAddress = request.Email,
+                    AadharId = request.AadharId,
                     MobileNumber = 0,
                     AddressID = 0,
                     IsActive = false,

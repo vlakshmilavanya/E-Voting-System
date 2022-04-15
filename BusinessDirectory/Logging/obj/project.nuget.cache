@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MQ/JZDRsWZIsDYoRiMmLILcXRHytToK+hD7fHl0RNZGR8p+FbUDwBIc9dDs2FCzcr9ETMPSN9Ikt4nj65sRfvQ==",
+  "dgSpecHash": "WsC0pNUh2ercs4vjKZh0w1D0foa6vMdlRxUB2R0+Aku+tMS1D6xXEfVEWR/amtxQwmigrQbUWAMCRI8KfSBiog==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major\\E-Voting-System\\BusinessDirectory\\Logging\\Logging.csproj",
+  "projectFilePath": "C:\\Users\\hp\\OneDrive\\Desktop\\Major Project\\E-Voting-System\\BusinessDirectory\\Logging\\Logging.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\browserinterop\\1.1.2\\browserinterop.1.1.2.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.8\\microsoft.aspnetcore.authorization.3.1.8.nupkg.sha512",

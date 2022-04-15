@@ -10,6 +10,9 @@ namespace BusinessDirectory.ViewModels
         public string FirstName { get; set; }
         [Required]
         public string LastName { get; set; }
+        [Required]
+        public string AadharNumber { get; set; }
+        public Int32 AadharId { get; set; }
         public OTPValidate OTPValidate { get; set; }
     }
 }
