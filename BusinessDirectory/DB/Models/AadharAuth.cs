@@ -17,6 +17,7 @@ namespace BusinessDirectory.DB.Models
         public string VoterId { get; set; } = "";
         public Int32 Age { get; set; } = 0;
         public bool IsActive { get; set; } = false;
+        public string MobileNumber { get; set; } = "";
 
        
     }
