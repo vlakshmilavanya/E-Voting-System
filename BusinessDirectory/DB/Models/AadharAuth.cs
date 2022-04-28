@@ -18,6 +18,7 @@ namespace BusinessDirectory.DB.Models
         public Int32 Age { get; set; } = 0;
         public bool IsActive { get; set; } = false;
         public string MobileNumber { get; set; } = "";
+        public string Email { get; set; } = "";
 
        
     }

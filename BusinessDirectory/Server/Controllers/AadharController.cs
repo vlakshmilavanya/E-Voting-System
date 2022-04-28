@@ -52,6 +52,7 @@ namespace BusinessDirectory.Server.Controllers
                 aadhar.VoterId = aadharModel.VoterId;
                 aadhar.Age = aadharModel.Age;
                 aadhar.IsActive = aadharModel.IsActive;
+                aadhar.Email = aadharModel.Email;
                 _context.AadharAuth.Update(aadhar);
                 await _context.SaveChangesAsync();
                 return Ok(aadhar);

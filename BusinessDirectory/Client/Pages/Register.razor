@@ -88,13 +88,17 @@
                 Snackbar.Add("User Already Exists", Severity.Error);
                 NavigationManager.NavigateTo("login");
             }
+            else if(model.Email != userRegister.Email)
+            {
+                Snackbar.Add("Please Enter Registered Email Id With Aadhar", Severity.Error);
+                NavigationManager.NavigateTo("Register");
+            }
             else
             {
 
-                if (model.VoterId == null || model.Age < 18)
+                if (model.VoterId == "" || model.Age < 18)
                 {
                     Snackbar.Add("InEligible to Vote", Severity.Error);
-
                 }
                 else
                 {
@@ -113,14 +117,14 @@
         {
             check = true;
             canvote = false;
-                    userRegister.AadharId = model.AadharId;
-                }
-                else
-                {
-                    Snackbar.Add("Invalid answer.Try Again!", Severity.Error);
-                }
+            userRegister.AadharId = model.AadharId;
+        }
+        else
+        {
+            Snackbar.Add("Invalid answer.Try Again!", Severity.Error);
+        }
 
-                
+
 
     }
     async void HandleRegistration()
@@ -133,6 +137,7 @@
             aadharModel.Age = model.Age;
             aadharModel.IsActive = true;
             aadharModel.VoterId = model.VoterId;
+            aadharModel.Email = model.Email;
             await aadharService.UpdateAadhar(aadharModel);
             NavigationManager.NavigateTo("login");
         }
